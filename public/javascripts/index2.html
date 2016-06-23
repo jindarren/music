@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Lastfm music recommender</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+</head>
+<body>
+
+<div class="ui-header">
+    <div class="header-container">
+        <span class="header">IntersectionExplorer - Exploring Music Recommendations with Last.fm</span>
+        <span class="header-right-clickable"><a id="intro-header" href="https://daddi.cs.kuleuven.be/music/welcome6"
+                                                target="_blank">How to Use</a></span>
+        <!--<span id="dataset-selector" class="header-right"></span>-->
+    </div>
+</div>
+
+<div class="container">
+    <h2>Lastfm recommended songs</h2>
+    <ul class="nav nav-tabs">
+        <li class="active"><a id="agent1" class="agent-link" data-toggle="tab" href="#menu1">Recommendations based on popular tracks</a></li>
+        <li><a id="agent2" class="agent-link" data-toggle="tab" href="#menu2">Recommendations based on liked tracks</a></li>
+        <li><a id="agent3" class="agent-link" data-toggle="tab" href="#menu3">Recommendations based on liked artists</a></li>
+        <li><a id="friend-link" data-toggle="tab" href="#menu4">Recommendations based on friends</a></li>
+        <li><a id="tag-link" data-toggle="tab" href="#menu5">Recommendations based on tags</a></li>
+    </ul>
+
+    <div class="tab-content">
+        <p id="task-text"><b>Task:</b> Explore the visualisation in detail and listen to and like the songs in the right side panel that you find interesting. Try to listen to and find at least 10 songs that you find interesting by interacting with different tabs in the visualisation.
+            After you have interacted with <b>5 tabs</b> and have found from these different tabs <b>10 songs</b> that you really like, a link to the final questionnaire will appear.</p>
+        <p id="questionnaire" class="header-right-clickable"><a
+                href="http://goo.gl/forms/5JwDl30zeEyZONxl2"
+                target="_blank">Now you can start to fill out a questionnaire, please!</a></p>
+
+        <div id="menu1" class="tab-pane fade in active menu">
+            <h3>Recommendations based on popular tracks</h3>
+
+            <p>We recommend the following songs based on the most popular tracks.</p>
+
+            <table id="result-table-1">
+                <tr style="display: flex; width: 100%;">
+                    <th class="item-table-header">Song</th>
+                    <th class="item-table-header">Artist</th>
+                    <th class="item-table-header">Liked</th>
+                </tr>
+            </table>
+
+            <div class="sk-fading-circle">
+                <div class="sk-circle1 sk-circle"></div>
+                <div class="sk-circle2 sk-circle"></div>
+                <div class="sk-circle3 sk-circle"></div>
+                <div class="sk-circle4 sk-circle"></div>
+                <div class="sk-circle5 sk-circle"></div>
+                <div class="sk-circle6 sk-circle"></div>
+                <div class="sk-circle7 sk-circle"></div>
+                <div class="sk-circle8 sk-circle"></div>
+                <div class="sk-circle9 sk-circle"></div>
+                <div class="sk-circle10 sk-circle"></div>
+                <div class="sk-circle11 sk-circle"></div>
+                <div class="sk-circle12 sk-circle"></div>
+            </div>
+        </div>
+
+        <div id="menu2" class="tab-pane fade menu">
+            <h3>Recommendations based on liked tracks</h3>
+
+            <p>We recommend the following songs based on your liked tracks.</p>
+
+            <table id="result-table-2">
+                <tr style="display: flex; width: 100%;">
+                    <th class="item-table-header">Song</th>
+                    <th class="item-table-header">Artist</th>
+                    <th class="item-table-header">Liked</th>
+                </tr>
+            </table>
+
+            <div id="menu2-item"></div>
+            <div class="sk-fading-circle">
+                <div class="sk-circle1 sk-circle"></div>
+                <div class="sk-circle2 sk-circle"></div>
+                <div class="sk-circle3 sk-circle"></div>
+                <div class="sk-circle4 sk-circle"></div>
+                <div class="sk-circle5 sk-circle"></div>
+                <div class="sk-circle6 sk-circle"></div>
+                <div class="sk-circle7 sk-circle"></div>
+                <div class="sk-circle8 sk-circle"></div>
+                <div class="sk-circle9 sk-circle"></div>
+                <div class="sk-circle10 sk-circle"></div>
+                <div class="sk-circle11 sk-circle"></div>
+                <div class="sk-circle12 sk-circle"></div>
+            </div>
+        </div>
+
+        <div id="menu3" class="tab-pane fade menu">
+            <h3>Recommendations based on liked artists</h3>
+
+            <p>We recommend the following songs based on your liked artists.</p>
+
+            <table id="result-table-3">
+                <tr style="display: flex; width: 100%;">
+                    <th class="item-table-header">Song</th>
+                    <th class="item-table-header">Artist</th>
+                    <th class="item-table-header">Liked</th>
+                </tr>
+            </table>
+
+            <div id="menu3-item"></div>
+            <div class="sk-fading-circle">
+                <div class="sk-circle1 sk-circle"></div>
+                <div class="sk-circle2 sk-circle"></div>
+                <div class="sk-circle3 sk-circle"></div>
+                <div class="sk-circle4 sk-circle"></div>
+                <div class="sk-circle5 sk-circle"></div>
+                <div class="sk-circle6 sk-circle"></div>
+                <div class="sk-circle7 sk-circle"></div>
+                <div class="sk-circle8 sk-circle"></div>
+                <div class="sk-circle9 sk-circle"></div>
+                <div class="sk-circle10 sk-circle"></div>
+                <div class="sk-circle11 sk-circle"></div>
+                <div class="sk-circle12 sk-circle"></div>
+            </div>
+        </div>
+
+        <div id="menu4" class="tab-pane fade menu">
+            <h3>Recommendations based on your friends</h3>
+
+            <p>We recommend the following songs based on your friends.</p>
+
+            <p>Select a friend to get his/her recommendations: <select id="friends-list"></select></p>
+            
+            <table id="result-table-4">
+                <tr style="display: flex; width: 100%;">
+                    <th class="item-table-header">Song</th>
+                    <th class="item-table-header">Artist</th>
+                    <th class="item-table-header">Liked</th>
+                </tr>
+            </table>
+
+            <div id="menu4-item"></div>
+            <div class="sk-fading-circle">
+                <div class="sk-circle1 sk-circle"></div>
+                <div class="sk-circle2 sk-circle"></div>
+                <div class="sk-circle3 sk-circle"></div>
+                <div class="sk-circle4 sk-circle"></div>
+                <div class="sk-circle5 sk-circle"></div>
+                <div class="sk-circle6 sk-circle"></div>
+                <div class="sk-circle7 sk-circle"></div>
+                <div class="sk-circle8 sk-circle"></div>
+                <div class="sk-circle9 sk-circle"></div>
+                <div class="sk-circle10 sk-circle"></div>
+                <div class="sk-circle11 sk-circle"></div>
+                <div class="sk-circle12 sk-circle"></div>
+            </div>
+        </div>
+
+        <div id="menu5" class="tab-pane fade menu">
+            <h3>Recommendations based on tags</h3>
+
+            <p>We recommend the following songs based on tags.</p>
+
+            <p>
+                Select a tag to get recommendations: <select id="tags-list"></select>
+            </p>
+
+
+            <table id="result-table-5">
+                <tr style="display: flex; width: 100%;">
+                    <th class="item-table-header">Song</th>
+                    <th class="item-table-header">Artist</th>
+                    <th class="item-table-header">Liked</th>
+                </tr>
+            </table>
+
+            <div id="menu5-item"></div>
+            <div class="sk-fading-circle">
+                <div class="sk-circle1 sk-circle"></div>
+                <div class="sk-circle2 sk-circle"></div>
+                <div class="sk-circle3 sk-circle"></div>
+                <div class="sk-circle4 sk-circle"></div>
+                <div class="sk-circle5 sk-circle"></div>
+                <div class="sk-circle6 sk-circle"></div>
+                <div class="sk-circle7 sk-circle"></div>
+                <div class="sk-circle8 sk-circle"></div>
+                <div class="sk-circle9 sk-circle"></div>
+                <div class="sk-circle10 sk-circle"></div>
+                <div class="sk-circle11 sk-circle"></div>
+                <div class="sk-circle12 sk-circle"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<link href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="./javascripts/css/simple_demo.css">
+
+<script src="//d3js.org/d3.v3.min.js" charset="utf-8"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+
+<script type="text/javascript" src="./javascripts/event-manager.js"></script>
+<script type="text/javascript" src="./javascripts/userBehavior.js"></script>
+<!--<script type="text/javascript" src="venn.js"></script>-->
+<script type="text/javascript" src="./javascripts/utilities.js"></script>
+<script type="text/javascript" src="./javascripts/attribute.js"></script>
+
+<!--<script type="text/javascript" src="lib/d3.layout.cloud.js"></script>-->
+<!--
+<script type="text/javascript" src="viewer/word-cloud.js"></script>
+<script type="text/javascript" src="viewer/scatterplot.js"></script>
+<script type="text/javascript" src="viewer/histogram.js"></script>
+<script type="text/javascript" src="viewer/variant-frequency.js"></script>
+-->
+<script type="text/javascript" src="./javascripts/dataParser.js"></script>
+<script type="text/javascript" src="./javascripts/element-viewer.js"></script>
+<script type="text/javascript" src="./javascripts/dataLoading.js"></script>
+<script type="text/javascript" src="./javascripts/filter.js"></script>
+<script type="text/javascript" src="./javascripts/selection.js"></script>
+<script type="text/javascript" src="./javascripts/dataStructure.js"></script>
+<script type="text/javascript" src="./javascripts/ui.js"></script>
+<script type="text/javascript" src="./javascripts/setSelection.js"></script>
+<script type="text/javascript" src="./javascripts/sort.js"></script>
+<script type="text/javascript" src="./javascripts/highlight.js"></script>
+<!--<script type="text/javascript" src="scrollbar.js"></script>-->
+<script type="text/javascript" src="./javascripts/items.js"></script>
+<script type="text/javascript" src="./javascripts/setGrouping.js"></script>
+<!--<script type="text/javascript" src="./javascripts/logicPanel.js"></script>-->
+<script type="text/javascript" src="./javascripts/brushableScale.js"></script>
+<!--<script type="text/javascript" src="statisticGraphs.js"></script>-->
+<script type="text/javascript" src="./javascripts/upset.js"></script>
+
+<script type="text/javascript" src="./javascripts/load_music_for_simple.js"></script>
+
+</body>
+</html>

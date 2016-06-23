@@ -1,0 +1,129 @@
+[
+	{
+		"name": "nodoka_chan",
+		"time": "07 @ 14:00:18"
+	},
+	{
+		"type": 0,
+		"usedSets": [
+			{
+				"name": "most popular tracks (11)",
+				"type": 0
+			},
+			{
+				"name": "lovedTrack-based agent (75)",
+				"type": 0
+			},
+			{
+				"name": "yourArtists-based agent (74)",
+				"type": 0
+			},
+			{
+				"name": "nodoka_chan (29/29)",
+				"type": 1
+			}
+		],
+		"time": "07 @ 14:00:18"
+	},
+	{
+		"type": 1,
+		"set": [
+			{
+				"name": "alternative rock (50)",
+				"type": 2
+			}
+		],
+		"check": true,
+		"usedSets": [
+			{
+				"name": "most popular tracks (11)",
+				"type": 0
+			},
+			{
+				"name": "lovedTrack-based agent (75)",
+				"type": 0
+			},
+			{
+				"name": "yourArtists-based agent (74)",
+				"type": 0
+			},
+			{
+				"name": "nodoka_chan (29/29)",
+				"type": 1
+			},
+			{
+				"name": "alternative rock (50)",
+				"type": 2
+			}
+		],
+		"time": "07 @ 14:00:36"
+	},
+	{
+		"type": 4,
+		"setsCombination": [
+			[
+				{
+					"name": "alternative rock (50)",
+					"type": 2,
+					"state": 1
+				}
+			]
+		],
+		"group_type": "NONQUERY_GROUP",
+		"query_header": "normal",
+		"Items": 48,
+		"time": "07 @ 14:00:42"
+	},
+	{
+		"type": 3,
+		"setsCombination": [
+			[
+				{
+					"name": "alternative rock (50)",
+					"type": 2,
+					"state": 1
+				}
+			]
+		],
+		"itemNumber": 48,
+		"group_type": "NONQUERY_GROUP",
+		"time": "07 @ 14:00:40"
+	},
+	{
+		"type": 1,
+		"set": [
+			{
+				"name": "j-rock (42)",
+				"type": 2
+			}
+		],
+		"check": true,
+		"usedSets": [
+			{
+				"name": "most popular tracks (11)",
+				"type": 0
+			},
+			{
+				"name": "lovedTrack-based agent (75)",
+				"type": 0
+			},
+			{
+				"name": "yourArtists-based agent (74)",
+				"type": 0
+			},
+			{
+				"name": "nodoka_chan (29/29)",
+				"type": 1
+			},
+			{
+				"name": "alternative rock (50)",
+				"type": 2
+			},
+			{
+				"name": "j-rock (42)",
+				"type": 2
+			}
+		],
+		"time": "07 @ 14:00:50"
+	}
+]

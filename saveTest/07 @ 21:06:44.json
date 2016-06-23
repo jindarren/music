@@ -1,0 +1,47 @@
+[
+	{
+		"name": "john",
+		"time": "07 @ 12:06:20"
+	},
+	{
+		"type": 7,
+		"item": "Window",
+		"time": "07 @ 12:06:21"
+	},
+	{
+		"type": 7,
+		"item": "Den minsta av segrar",
+		"time": "07 @ 12:06:22"
+	},
+	{
+		"type": 7,
+		"item": "Border Lord",
+		"time": "07 @ 12:06:23"
+	},
+	{
+		"type": 7,
+		"item": "Have Yourself A Merry Little Christmas",
+		"time": "07 @ 12:06:24"
+	},
+	{
+		"type": 4,
+		"setsCombination": [
+			[
+				{
+					"name": " sonals (10/33)",
+					"type": 1,
+					"state": 1
+				},
+				{
+					"name": "  john (41/41)",
+					"type": 1,
+					"state": 1
+				}
+			]
+		],
+		"group_type": "NONQUERY_GROUP",
+		"query_header": "normal",
+		"Items": 10,
+		"time": "07 @ 12:06:42"
+	}
+]

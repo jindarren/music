@@ -1,0 +1,28 @@
+[
+	{
+		"name": "john",
+		"time": "07 @ 12:04:24"
+	},
+	{
+		"type": 0,
+		"usedSets": [
+			{
+				"name": "most popular tracks (11)",
+				"type": 0
+			},
+			{
+				"name": "lovedTrack-based agent (106)",
+				"type": 0
+			},
+			{
+				"name": "yourArtists-based agent (80)",
+				"type": 0
+			},
+			{
+				"name": "john (31/31)",
+				"type": 1
+			}
+		],
+		"time": "07 @ 12:04:24"
+	}
+]

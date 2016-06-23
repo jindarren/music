@@ -1,0 +1,956 @@
+[
+	{
+		"type": 0,
+		"usedSets": [
+			{
+				"name": "most popular tracks (11)",
+				"numOfIntersections": 0
+			},
+			{
+				"name": "lovedTrack-based agent (60)",
+				"numOfIntersections": 0
+			},
+			{
+				"name": "yourArtists-based agent (75)",
+				"numOfIntersections": 0
+			},
+			{
+				"name": "aa11wwwqq (16/16)",
+				"numOfIntersections": 1
+			}
+		],
+		"time": "15 @ 15:18:27"
+	},
+	{
+		"type": 1,
+		"set": [
+			{
+				"name": "FB16 (1/45)",
+				"type": 1
+			}
+		],
+		"check": true,
+		"usedSets": [
+			{
+				"name": "most popular tracks (11)",
+				"numOfIntersections": 0
+			},
+			{
+				"name": "lovedTrack-based agent (60)",
+				"numOfIntersections": 0
+			},
+			{
+				"name": "yourArtists-based agent (75)",
+				"numOfIntersections": 0
+			},
+			{
+				"name": "aa11wwwqq (16/16)",
+				"numOfIntersections": 1
+			},
+			{
+				"name": "FB16 (1/45)",
+				"numOfIntersections": 1
+			}
+		],
+		"time": "15 @ 15:18:46"
+	},
+	{
+		"type": 4,
+		"setsCombination": [
+			[
+				{
+					"name": "yourArtists-based agent (75)",
+					"type": 0,
+					"state": 1
+				},
+				{
+					"name": "lovedTrack-based agent (60)",
+					"type": 0,
+					"state": 1
+				}
+			]
+		],
+		"group_type": "NONQUERY_GROUP",
+		"query_header": "normal",
+		"Items": 1,
+		"time": "15 @ 15:18:50"
+	},
+	{
+		"type": 4,
+		"setsCombination": [
+			[
+				{
+					"name": "yourArtists-based agent (75)",
+					"type": 0,
+					"state": 1
+				},
+				{
+					"name": "lovedTrack-based agent (60)",
+					"type": 0,
+					"state": 1
+				}
+			]
+		],
+		"group_type": "NONQUERY_GROUP",
+		"query_header": "normal",
+		"Items": 1,
+		"time": "15 @ 15:18:52"
+	},
+	{
+		"type": 4,
+		"setsCombination": [
+			[
+				{
+					"name": "FB16 (1/45)",
+					"type": 1,
+					"state": 1
+				},
+				{
+					"name": "aa11wwwqq (16/16)",
+					"type": 1,
+					"state": 1
+				},
+				{
+					"name": "lovedTrack-based agent (60)",
+					"type": 0,
+					"state": 1
+				},
+				{
+					"name": "most popular tracks (11)",
+					"type": 0,
+					"state": 1
+				}
+			]
+		],
+		"group_type": "NONQUERY_GROUP",
+		"query_header": "normal",
+		"Items": 1,
+		"time": "15 @ 15:18:53"
+	},
+	{
+		"type": 1,
+		"set": [
+			{
+				"name": "indie (50)",
+				"type": 2
+			}
+		],
+		"check": true,
+		"usedSets": [
+			{
+				"name": "most popular tracks (11)",
+				"numOfIntersections": 0
+			},
+			{
+				"name": "lovedTrack-based agent (60)",
+				"numOfIntersections": 0
+			},
+			{
+				"name": "yourArtists-based agent (75)",
+				"numOfIntersections": 0
+			},
+			{
+				"name": "aa11wwwqq (16/16)",
+				"numOfIntersections": 1
+			},
+			{
+				"name": "FB16 (1/45)",
+				"numOfIntersections": 1
+			},
+			{
+				"name": "indie (50)",
+				"numOfIntersections": 2
+			}
+		],
+		"time": "15 @ 15:18:54"
+	},
+	{
+		"type": 4,
+		"setsCombination": [
+			[
+				{
+					"name": "indie (50)",
+					"type": 2,
+					"state": 1
+				},
+				{
+					"name": "FB16 (1/45)",
+					"type": 1,
+					"state": 1
+				},
+				{
+					"name": "aa11wwwqq (16/16)",
+					"type": 1,
+					"state": 1
+				},
+				{
+					"name": "lovedTrack-based agent (60)",
+					"type": 0,
+					"state": 1
+				},
+				{
+					"name": "most popular tracks (11)",
+					"type": 0,
+					"state": 1
+				}
+			]
+		],
+		"group_type": "NONQUERY_GROUP",
+		"query_header": "normal",
+		"Items": 1,
+		"time": "15 @ 15:18:57"
+	},
+	{
+		"type": 1,
+		"set": [
+			{
+				"name": "pop punk (48)",
+				"type": 2
+			}
+		],
+		"check": true,
+		"usedSets": [
+			{
+				"name": "most popular tracks (11)",
+				"numOfIntersections": 0
+			},
+			{
+				"name": "lovedTrack-based agent (60)",
+				"numOfIntersections": 0
+			},
+			{
+				"name": "yourArtists-based agent (75)",
+				"numOfIntersections": 0
+			},
+			{
+				"name": "aa11wwwqq (16/16)",
+				"numOfIntersections": 1
+			},
+			{
+				"name": "FB16 (1/45)",
+				"numOfIntersections": 1
+			},
+			{
+				"name": "indie (50)",
+				"numOfIntersections": 2
+			},
+			{
+				"name": "pop punk (48)",
+				"numOfIntersections": 2
+			}
+		],
+		"time": "15 @ 15:19:05"
+	},
+	{
+		"type": 1,
+		"set": [
+			{
+				"name": "singer-songwriter (48)",
+				"type": 2
+			}
+		],
+		"check": true,
+		"usedSets": [
+			{
+				"name": "most popular tracks (11)",
+				"numOfIntersections": 0
+			},
+			{
+				"name": "lovedTrack-based agent (60)",
+				"numOfIntersections": 0
+			},
+			{
+				"name": "yourArtists-based agent (75)",
+				"numOfIntersections": 0
+			},
+			{
+				"name": "aa11wwwqq (16/16)",
+				"numOfIntersections": 1
+			},
+			{
+				"name": "FB16 (1/45)",
+				"numOfIntersections": 1
+			},
+			{
+				"name": "indie (50)",
+				"numOfIntersections": 2
+			},
+			{
+				"name": "pop punk (48)",
+				"numOfIntersections": 2
+			},
+			{
+				"name": "singer-songwriter (48)",
+				"numOfIntersections": 2
+			}
+		],
+		"time": "15 @ 15:19:07"
+	},
+	{
+		"type": 4,
+		"setsCombination": [
+			[
+				{
+					"name": null,
+					"type": null
+				}
+			]
+		],
+		"group_type": "NONQUERY_GROUP",
+		"query_header": "normal",
+		"Items": 560,
+		"time": "15 @ 15:19:14"
+	},
+	{
+		"type": 7,
+		"item": "99 Problems",
+		"time": "15 @ 15:19:17"
+	},
+	{
+		"type": 7,
+		"item": "Dirty Harry",
+		"time": "15 @ 15:19:18"
+	},
+	{
+		"type": 5,
+		"item": "Ms. Jackson",
+		"time": "15 @ 15:19:21"
+	},
+	{
+		"type": 7,
+		"item": "The Real Slim Shady",
+		"time": "15 @ 15:19:43"
+	},
+	{
+		"type": 4,
+		"setsCombination": [
+			[
+				{
+					"name": null,
+					"type": null
+				}
+			]
+		],
+		"group_type": "NONQUERY_GROUP",
+		"query_header": "normal",
+		"Items": 557,
+		"time": "15 @ 15:19:52"
+	},
+	{
+		"type": 4,
+		"setsCombination": [
+			[
+				{
+					"name": null,
+					"type": null
+				}
+			]
+		],
+		"group_type": "NONQUERY_GROUP",
+		"query_header": "normal",
+		"Items": 557,
+		"time": "15 @ 15:19:56"
+	},
+	{
+		"type": 4,
+		"setsCombination": [
+			[
+				{
+					"name": null,
+					"type": null
+				}
+			]
+		],
+		"group_type": "NONQUERY_GROUP",
+		"query_header": "normal",
+		"Items": 557,
+		"time": "15 @ 15:20:05"
+	},
+	{
+		"type": 4,
+		"setsCombination": [
+			[
+				{
+					"name": "pop punk (48)",
+					"type": 2,
+					"state": 1
+				}
+			]
+		],
+		"group_type": "NONQUERY_GROUP",
+		"query_header": "normal",
+		"Items": 48,
+		"time": "15 @ 15:20:08"
+	},
+	{
+		"type": 1,
+		"set": [
+			{
+				"name": "gangsta rap (42)",
+				"type": 2
+			}
+		],
+		"check": true,
+		"usedSets": [
+			{
+				"name": "most popular tracks (11)",
+				"numOfIntersections": 0
+			},
+			{
+				"name": "lovedTrack-based agent (60)",
+				"numOfIntersections": 0
+			},
+			{
+				"name": "yourArtists-based agent (75)",
+				"numOfIntersections": 0
+			},
+			{
+				"name": "   aa11wwwqq (18/19)",
+				"numOfIntersections": 1
+			},
+			{
+				"name": "FB16 (1/45)",
+				"numOfIntersections": 1
+			},
+			{
+				"name": "indie (50)",
+				"numOfIntersections": 2
+			},
+			{
+				"name": "pop punk (48)",
+				"numOfIntersections": 2
+			},
+			{
+				"name": "singer-songwriter (48)",
+				"numOfIntersections": 2
+			},
+			{
+				"name": "gangsta rap (42)",
+				"numOfIntersections": 2
+			}
+		],
+		"time": "15 @ 15:20:16"
+	},
+	{
+		"type": 1,
+		"set": [
+			{
+				"name": "folk (45)",
+				"type": 2
+			}
+		],
+		"check": true,
+		"usedSets": [
+			{
+				"name": "most popular tracks (11)",
+				"numOfIntersections": 0
+			},
+			{
+				"name": "lovedTrack-based agent (60)",
+				"numOfIntersections": 0
+			},
+			{
+				"name": "yourArtists-based agent (75)",
+				"numOfIntersections": 0
+			},
+			{
+				"name": "   aa11wwwqq (18/19)",
+				"numOfIntersections": 1
+			},
+			{
+				"name": "FB16 (1/45)",
+				"numOfIntersections": 1
+			},
+			{
+				"name": "indie (50)",
+				"numOfIntersections": 2
+			},
+			{
+				"name": "pop punk (48)",
+				"numOfIntersections": 2
+			},
+			{
+				"name": "singer-songwriter (48)",
+				"numOfIntersections": 2
+			},
+			{
+				"name": "gangsta rap (42)",
+				"numOfIntersections": 2
+			},
+			{
+				"name": "folk (45)",
+				"numOfIntersections": 2
+			}
+		],
+		"time": "15 @ 15:20:17"
+	},
+	{
+		"type": 4,
+		"setsCombination": [
+			[
+				{
+					"name": "lovedTrack-based agent (60)",
+					"type": 0,
+					"state": 1
+				}
+			]
+		],
+		"group_type": "NONQUERY_GROUP",
+		"query_header": "normal",
+		"Items": 47,
+		"time": "15 @ 15:20:21"
+	},
+	{
+		"type": 7,
+		"item": "Misery Business",
+		"time": "15 @ 15:20:28"
+	},
+	{
+		"type": 7,
+		"item": "I Write Sins Not Tragedies",
+		"time": "15 @ 15:20:29"
+	},
+	{
+		"type": 7,
+		"item": "Hey There Delilah",
+		"time": "15 @ 15:20:40"
+	},
+	{
+		"type": 7,
+		"item": "Adam's Song",
+		"time": "15 @ 15:20:41"
+	},
+	{
+		"type": 7,
+		"item": "Dance, Dance",
+		"time": "15 @ 15:20:45"
+	},
+	{
+		"type": 7,
+		"item": "The Only Difference Between Martyrdom and Suicide Is Press Coverage",
+		"time": "15 @ 15:20:47"
+	},
+	{
+		"type": 7,
+		"item": "But It's Better If You Do",
+		"time": "15 @ 15:20:48"
+	},
+	{
+		"type": 7,
+		"item": "Welcome to My Life",
+		"time": "15 @ 15:20:49"
+	},
+	{
+		"type": 7,
+		"item": "All the Small Things",
+		"time": "15 @ 15:20:50"
+	},
+	{
+		"type": 7,
+		"item": "My Happy Ending",
+		"time": "15 @ 15:20:51"
+	},
+	{
+		"type": 4,
+		"setsCombination": [
+			[
+				{
+					"name": "gangsta rap (42)",
+					"type": 2,
+					"state": 1
+				}
+			]
+		],
+		"group_type": "NONQUERY_GROUP",
+		"query_header": "normal",
+		"Items": 36,
+		"time": "15 @ 15:20:56"
+	},
+	{
+		"type": 4,
+		"setsCombination": [
+			[
+				{
+					"name": null,
+					"type": null
+				}
+			]
+		],
+		"group_type": "NONQUERY_GROUP",
+		"query_header": "normal",
+		"Items": 497,
+		"time": "15 @ 15:20:59"
+	},
+	{
+		"type": 4,
+		"setsCombination": [
+			[
+				{
+					"name": "FB16 (1/45)",
+					"type": 1,
+					"state": 1
+				}
+			]
+		],
+		"group_type": "NONQUERY_GROUP",
+		"query_header": "normal",
+		"Items": 42,
+		"time": "15 @ 15:21:01"
+	},
+	{
+		"type": 4,
+		"setsCombination": [
+			[
+				{
+					"name": "FB16 (1/45)",
+					"type": 1,
+					"state": 1
+				}
+			]
+		],
+		"group_type": "NONQUERY_GROUP",
+		"query_header": "normal",
+		"Items": 42,
+		"time": "15 @ 15:21:02"
+	},
+	{
+		"type": 4,
+		"setsCombination": [
+			[
+				{
+					"name": "lovedTrack-based agent (60)",
+					"type": 0,
+					"state": 1
+				}
+			]
+		],
+		"group_type": "NONQUERY_GROUP",
+		"query_header": "normal",
+		"Items": 47,
+		"time": "15 @ 15:21:04"
+	},
+	{
+		"type": 1,
+		"set": [
+			{
+				"name": "drum and bass (41)",
+				"type": 2
+			}
+		],
+		"check": true,
+		"usedSets": [
+			{
+				"name": "most popular tracks (11)",
+				"numOfIntersections": 0
+			},
+			{
+				"name": "lovedTrack-based agent (60)",
+				"numOfIntersections": 0
+			},
+			{
+				"name": "yourArtists-based agent (75)",
+				"numOfIntersections": 0
+			},
+			{
+				"name": "   aa11wwwqq (18/19)",
+				"numOfIntersections": 1
+			},
+			{
+				"name": "FB16 (1/45)",
+				"numOfIntersections": 1
+			},
+			{
+				"name": "indie (50)",
+				"numOfIntersections": 2
+			},
+			{
+				"name": "pop punk (48)",
+				"numOfIntersections": 2
+			},
+			{
+				"name": "singer-songwriter (48)",
+				"numOfIntersections": 2
+			},
+			{
+				"name": "gangsta rap (42)",
+				"numOfIntersections": 2
+			},
+			{
+				"name": "folk (45)",
+				"numOfIntersections": 2
+			},
+			{
+				"name": "drum and bass (41)",
+				"numOfIntersections": 2
+			}
+		],
+		"time": "15 @ 15:21:08"
+	},
+	{
+		"type": 1,
+		"set": [
+			{
+				"name": "most popular tracks (11)",
+				"type": 0
+			}
+		],
+		"check": false,
+		"usedSets": [
+			{
+				"name": "lovedTrack-based agent (60)",
+				"numOfIntersections": 0
+			},
+			{
+				"name": "yourArtists-based agent (75)",
+				"numOfIntersections": 0
+			},
+			{
+				"name": "   aa11wwwqq (18/19)",
+				"numOfIntersections": 1
+			},
+			{
+				"name": "FB16 (1/45)",
+				"numOfIntersections": 1
+			},
+			{
+				"name": "indie (50)",
+				"numOfIntersections": 2
+			},
+			{
+				"name": "pop punk (48)",
+				"numOfIntersections": 2
+			},
+			{
+				"name": "singer-songwriter (48)",
+				"numOfIntersections": 2
+			},
+			{
+				"name": "gangsta rap (42)",
+				"numOfIntersections": 2
+			},
+			{
+				"name": "folk (45)",
+				"numOfIntersections": 2
+			},
+			{
+				"name": "drum and bass (41)",
+				"numOfIntersections": 2
+			}
+		],
+		"time": "15 @ 15:21:11"
+	},
+	{
+		"type": 1,
+		"set": [
+			{
+				"name": "lovedTrack-based agent (60)",
+				"type": 0
+			}
+		],
+		"check": false,
+		"usedSets": [
+			{
+				"name": "yourArtists-based agent (75)",
+				"numOfIntersections": 0
+			},
+			{
+				"name": "   aa11wwwqq (18/19)",
+				"numOfIntersections": 1
+			},
+			{
+				"name": "FB16 (1/45)",
+				"numOfIntersections": 1
+			},
+			{
+				"name": "indie (50)",
+				"numOfIntersections": 2
+			},
+			{
+				"name": "pop punk (48)",
+				"numOfIntersections": 2
+			},
+			{
+				"name": "singer-songwriter (48)",
+				"numOfIntersections": 2
+			},
+			{
+				"name": "gangsta rap (42)",
+				"numOfIntersections": 2
+			},
+			{
+				"name": "folk (45)",
+				"numOfIntersections": 2
+			},
+			{
+				"name": "drum and bass (41)",
+				"numOfIntersections": 2
+			}
+		],
+		"time": "15 @ 15:21:11"
+	},
+	{
+		"type": 7,
+		"item": "Hello New World",
+		"time": "15 @ 15:21:17"
+	},
+	{
+		"type": 7,
+		"item": "Momma I'm So Sorry",
+		"time": "15 @ 15:21:22"
+	},
+	{
+		"type": 4,
+		"setsCombination": {
+			"name": "pop punk (48)",
+			"type": 2,
+			"state": 1
+		},
+		"group_type": "SET_TYPE",
+		"Items": 48,
+		"time": "15 @ 15:21:30"
+	},
+	{
+		"type": 4,
+		"setsCombination": {
+			"name": "pop punk (48)",
+			"type": 2,
+			"state": 1
+		},
+		"group_type": "SET_TYPE",
+		"Items": 48,
+		"time": "15 @ 15:21:32"
+	},
+	{
+		"type": 4,
+		"setsCombination": [
+			[
+				{
+					"name": null,
+					"type": null
+				}
+			]
+		],
+		"group_type": "NONQUERY_GROUP",
+		"query_header": "normal",
+		"Items": 507,
+		"time": "15 @ 15:21:34"
+	},
+	{
+		"type": 4,
+		"setsCombination": [
+			[
+				{
+					"name": null,
+					"type": null
+				}
+			]
+		],
+		"group_type": "NONQUERY_GROUP",
+		"query_header": "normal",
+		"Items": 507,
+		"time": "15 @ 15:21:37"
+	},
+	{
+		"type": 5,
+		"item": "Wicked Gil",
+		"time": "15 @ 15:21:49"
+	},
+	{
+		"type": 7,
+		"item": "Wicked Gil",
+		"time": "15 @ 15:22:10"
+	},
+	{
+		"type": 5,
+		"item": "Sweet Disposition",
+		"time": "15 @ 15:22:11"
+	},
+	{
+		"type": 1,
+		"set": [
+			{
+				"name": "Dekadencja_ (0/41)",
+				"type": 1
+			}
+		],
+		"check": true,
+		"usedSets": [
+			{
+				"name": "yourArtists-based agent (75)",
+				"numOfIntersections": 0
+			},
+			{
+				"name": "  aa11wwwqq (20/22)",
+				"numOfIntersections": 1
+			},
+			{
+				"name": "FB16 (1/45)",
+				"numOfIntersections": 1
+			},
+			{
+				"name": "indie (50)",
+				"numOfIntersections": 2
+			},
+			{
+				"name": "pop punk (48)",
+				"numOfIntersections": 2
+			},
+			{
+				"name": "singer-songwriter (48)",
+				"numOfIntersections": 2
+			},
+			{
+				"name": "gangsta rap (42)",
+				"numOfIntersections": 2
+			},
+			{
+				"name": "folk (45)",
+				"numOfIntersections": 2
+			},
+			{
+				"name": "drum and bass (41)",
+				"numOfIntersections": 2
+			},
+			{
+				"name": "Dekadencja_ (0/41)",
+				"numOfIntersections": 1
+			}
+		],
+		"time": "15 @ 15:22:40"
+	},
+	{
+		"type": 4,
+		"setsCombination": [
+			[
+				{
+					"name": null,
+					"type": null
+				}
+			]
+		],
+		"group_type": "NONQUERY_GROUP",
+		"query_header": "normal",
+		"Items": 465,
+		"time": "15 @ 15:22:45"
+	},
+	{
+		"type": 7,
+		"item": "La Di Da",
+		"time": "15 @ 15:22:50"
+	},
+	{
+		"type": 7,
+		"item": "Sour Patch Kids",
+		"time": "15 @ 15:22:50"
+	},
+	{
+		"type": 7,
+		"item": "Your Algebra",
+		"time": "15 @ 15:22:54"
+	},
+	{
+		"type": 7,
+		"item": "Dead Presidents II",
+		"time": "15 @ 15:22:55"
+	}
+]

@@ -1,0 +1,65 @@
+[
+	{
+		"name": "fox116",
+		"time": "07 @ 13:03:02"
+	},
+	{
+		"type": 3,
+		"setsCombination": [
+			[
+				{
+					"name": "experimental (49)",
+					"type": 2,
+					"state": 1
+				}
+			]
+		],
+		"itemNumber": 48,
+		"group_type": "NONQUERY_GROUP",
+		"time": "07 @ 13:03:01"
+	},
+	{
+		"type": 2,
+		"sort": [
+			{
+				"name": "punk (48)",
+				"type": 2
+			}
+		],
+		"time": "07 @ 13:03:15"
+	},
+	{
+		"type": 4,
+		"setsCombination": [
+			{
+				"name": "punk (48)",
+				"type": 2,
+				"state": 1
+			}
+		],
+		"group_type": "SET_TYPE",
+		"Items": 48,
+		"time": "07 @ 13:03:15"
+	},
+	{
+		"type": 4,
+		"setsCombination": [
+			[
+				{
+					"name": "punk (48)",
+					"type": 2,
+					"state": 1
+				}
+			]
+		],
+		"group_type": "NONQUERY_GROUP",
+		"query_header": "normal",
+		"Items": 47,
+		"time": "07 @ 13:03:23"
+	},
+	{
+		"type": 7,
+		"item": "The Kids Aren't Alright",
+		"time": "07 @ 13:03:29"
+	}
+]

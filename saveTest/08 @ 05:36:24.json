@@ -1,0 +1,114 @@
+[
+	{
+		"name": "brenkelieshere",
+		"time": "07 @ 20:36:27"
+	},
+	{
+		"type": 3,
+		"setsCombination": [
+			[
+				{
+					"name": "eldorado2 (0/44)",
+					"type": 1,
+					"state": 1
+				},
+				{
+					"name": "yourArtists-based agent (94)",
+					"type": 0,
+					"state": 1
+				},
+				{
+					"name": "lovedTrack-based agent (133)",
+					"type": 0,
+					"state": 1
+				}
+			]
+		],
+		"itemNumber": 1,
+		"group_type": "NONQUERY_GROUP",
+		"time": "07 @ 20:36:26"
+	},
+	{
+		"type": 4,
+		"setsCombination": [
+			[
+				{
+					"name": "dieselgreg (0/46)",
+					"type": 1,
+					"state": 1
+				},
+				{
+					"name": "lovedTrack-based agent (133)",
+					"type": 0,
+					"state": 1
+				}
+			]
+		],
+		"group_type": "NONQUERY_GROUP",
+		"query_header": "normal",
+		"Items": 1,
+		"time": "07 @ 20:36:29"
+	},
+	{
+		"type": 4,
+		"setsCombination": [
+			[
+				{
+					"name": "paloalto45 (0/47)",
+					"type": 1,
+					"state": 1
+				},
+				{
+					"name": "Captain_M4d (0/39)",
+					"type": 1,
+					"state": 1
+				}
+			]
+		],
+		"group_type": "NONQUERY_GROUP",
+		"query_header": "normal",
+		"Items": 1,
+		"time": "07 @ 20:36:31"
+	},
+	{
+		"type": 4,
+		"setsCombination": [
+			[
+				{
+					"name": "paloalto45 (0/47)",
+					"type": 1,
+					"state": 1
+				},
+				{
+					"name": "Captain_M4d (0/39)",
+					"type": 1,
+					"state": 1
+				}
+			]
+		],
+		"group_type": "NONQUERY_GROUP",
+		"query_header": "normal",
+		"Items": 1,
+		"time": "07 @ 20:36:37"
+	},
+	{
+		"type": 3,
+		"setsCombination": [
+			[
+				{
+					"name": "paloalto45 (0/47)",
+					"type": 1,
+					"state": 1
+				},
+				{
+					"name": "Captain_M4d (0/39)",
+					"type": 1,
+					"state": 1
+				}
+			]
+		],
+		"itemNumber": 1,
+		"group_type": "NONQUERY_GROUP",
+		"time": "07 @ 20:36:33"
+	}
+]

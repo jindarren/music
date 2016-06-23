@@ -1,0 +1,45 @@
+{
+	"file": "data/paperInfo/data.csv",
+	"name": "Online User Bookmark - Google Drive ",
+	"header": 0,
+	"separator": ";",
+	"skip": 0,
+	"meta": [{
+		"type": "id",
+		"index": 0,
+		"name": "name"
+	}, {
+		"type": "string",
+		"index": 1,
+		"name": "presentationID"
+	}, {
+		"type": "string",
+		"index": 2,
+		"name": "Title"
+	}, {
+		"type": "string",
+		"index": 3,
+		"name": "Authors"
+	}],
+	"sets": [{
+		"name": "Agents",
+		"format": "binary",
+		"start": 4,
+		"end": 4
+	}, {
+		"name": "Similar users",
+		"format": "binary",
+		"start": 5,
+		"end": 19
+	}, {
+		"name": "Other users",
+		"format": "binary",
+		"start": 20,
+		"end": 77
+	}, {
+		"name": "Tags",
+		"format": "binary",
+		"start": 78,
+		"end": 478
+	}]
+}

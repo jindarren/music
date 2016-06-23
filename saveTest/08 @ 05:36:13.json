@@ -1,0 +1,207 @@
+[
+	{
+		"name": "brenkelieshere",
+		"time": "07 @ 20:35:52"
+	},
+	{
+		"type": 1,
+		"set": [
+			{
+				"name": "paloalto45 (0/47)",
+				"type": 1
+			}
+		],
+		"check": true,
+		"usedSets": [
+			{
+				"name": "most popular tracks (11)",
+				"type": 0
+			},
+			{
+				"name": "lovedTrack-based agent (133)",
+				"type": 0
+			},
+			{
+				"name": "yourArtists-based agent (94)",
+				"type": 0
+			},
+			{
+				"name": "brenkelieshere (31/31)",
+				"type": 1
+			},
+			{
+				"name": "Captain_M4d (0/39)",
+				"type": 1
+			},
+			{
+				"name": "huddyhippo (0/42)",
+				"type": 1
+			},
+			{
+				"name": "Brownguy (0/43)",
+				"type": 1
+			},
+			{
+				"name": "eldorado2 (0/44)",
+				"type": 1
+			},
+			{
+				"name": "dieselgreg (0/46)",
+				"type": 1
+			},
+			{
+				"name": "Y2Ken (0/18)",
+				"type": 1
+			},
+			{
+				"name": "MuoriBOR (0/22)",
+				"type": 1
+			},
+			{
+				"name": "michaelblackson (0/10)",
+				"type": 1
+			},
+			{
+				"name": "paloalto45 (0/47)",
+				"type": 1
+			}
+		],
+		"time": "07 @ 20:35:58"
+	},
+	{
+		"type": 1,
+		"set": [
+			{
+				"name": "Oceakin (0/47)",
+				"type": 1
+			}
+		],
+		"check": true,
+		"usedSets": [
+			{
+				"name": "most popular tracks (11)",
+				"type": 0
+			},
+			{
+				"name": "lovedTrack-based agent (133)",
+				"type": 0
+			},
+			{
+				"name": "yourArtists-based agent (94)",
+				"type": 0
+			},
+			{
+				"name": "brenkelieshere (31/31)",
+				"type": 1
+			},
+			{
+				"name": "Captain_M4d (0/39)",
+				"type": 1
+			},
+			{
+				"name": "huddyhippo (0/42)",
+				"type": 1
+			},
+			{
+				"name": "Brownguy (0/43)",
+				"type": 1
+			},
+			{
+				"name": "eldorado2 (0/44)",
+				"type": 1
+			},
+			{
+				"name": "dieselgreg (0/46)",
+				"type": 1
+			},
+			{
+				"name": "Y2Ken (0/18)",
+				"type": 1
+			},
+			{
+				"name": "MuoriBOR (0/22)",
+				"type": 1
+			},
+			{
+				"name": "michaelblackson (0/10)",
+				"type": 1
+			},
+			{
+				"name": "paloalto45 (0/47)",
+				"type": 1
+			},
+			{
+				"name": "Oceakin (0/47)",
+				"type": 1
+			}
+		],
+		"time": "07 @ 20:36:05"
+	},
+	{
+		"type": 4,
+		"setsCombination": [
+			[
+				{
+					"name": "brenkelieshere (31/31)",
+					"type": 1,
+					"state": 1
+				},
+				{
+					"name": "lovedTrack-based agent (133)",
+					"type": 0,
+					"state": 1
+				}
+			]
+		],
+		"group_type": "NONQUERY_GROUP",
+		"query_header": "normal",
+		"Items": 2,
+		"time": "07 @ 20:36:23"
+	},
+	{
+		"type": 3,
+		"setsCombination": [
+			[
+				{
+					"name": "brenkelieshere (31/31)",
+					"type": 1,
+					"state": 1
+				},
+				{
+					"name": "lovedTrack-based agent (133)",
+					"type": 0,
+					"state": 1
+				}
+			]
+		],
+		"itemNumber": 2,
+		"group_type": "NONQUERY_GROUP",
+		"time": "07 @ 20:36:22"
+	},
+	{
+		"type": 4,
+		"setsCombination": [
+			[
+				{
+					"name": "eldorado2 (0/44)",
+					"type": 1,
+					"state": 1
+				},
+				{
+					"name": "yourArtists-based agent (94)",
+					"type": 0,
+					"state": 1
+				},
+				{
+					"name": "lovedTrack-based agent (133)",
+					"type": 0,
+					"state": 1
+				}
+			]
+		],
+		"group_type": "NONQUERY_GROUP",
+		"query_header": "normal",
+		"Items": 1,
+		"time": "07 @ 20:36:27"
+	}
+]

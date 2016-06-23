@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Evaluation for IE music</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="./javascripts/css/welcome.css">
+
+</head>
+<body>
+
+<div class="container">
+    <h3>Quiz for evaluation</h3>
+    <br>
+    <div class="image-tutorial">
+        <img src="./javascripts/images/quiz.png"/>
+    </div>
+
+    <h4>Please answer the following questions according to the screen shot of Intersection Explorer</h4>
+
+    <form id="test1">
+        <h4><span class="wrong">Wrong</span> 1. What do the agents represent?</h4>
+        <input type="radio" name="radioName" value="a"> songs that are most popular <br>
+        <input type="radio" name="radioName" value="b"> songs that are recommended to you based on your loved tracks<br>
+        <input type="radio" name="radioName" value="c"> songs that are recommended to you based on the artists that you like<br>
+        <input type="radio" name="radioName" value="d"> all of the above
+    </form>
+
+    <form id="test2">
+        <h4><span class="wrong">Wrong</span> 2. What does the selected row represent?</h4>
+        <input type="radio" name="radioName" value="a"> songs that are tagged with alternative <br>
+        <input type="radio" name="radioName" value="b"> songs that are tagged with both britpop and alternative<br>
+        <input type="radio" name="radioName" value="c"> songs that you like and that are tagged with britpop and alternative<br>
+        <input type="radio" name="radioName" value="d"> none of the above
+    </form>
+
+    <form id="test3">
+        <h4><span class="wrong">Wrong</span> 3.  How many songs does the selected row recommend?</h4>
+        <input type="radio" name="radioName" value="a"> 9 <br>
+        <input type="radio" name="radioName" value="b"> 11 <br>
+        <input type="radio" name="radioName" value="c"> 45 <br>
+        <input type="radio" name="radioName" value="d"> none of the above
+    </form>
+
+    <form id="test4">
+        <h4><span class="wrong">Wrong</span> 4.  Which songs do you already like from the recommended items?</h4>
+        <input type="radio" name="radioName" value="a"> Song 2 <br>
+        <input type="radio" name="radioName" value="b"> Creep <br>
+        <input type="radio" name="radioName" value="c"> Starlight <br>
+        <input type="radio" name="radioName" value="d"> none of the above
+    </form>
+
+    <br>
+    <br>
+    <div id="result"></div>
+
+    <ul class="pager">
+        <li class="previous"><a href="./welcome5">Previous</a></li>
+        <li class="submit"><a>Submit</a></li>
+    </ul>
+</div>
+
+<script>
+    var result = []
+
+    $("#test1 input").change(function(){
+        result[0]=$('input[name=radioName]:checked', '#test1').val()
+    })
+
+    $("#test2 input").change(function(){
+        result[1]=$('input[name=radioName]:checked', '#test2').val()
+
+    })
+
+    $("#test3 input").change(function(){
+        result[2]=$('input[name=radioName]:checked', '#test3').val()
+
+    })
+
+    $("#test4 input").change(function(){
+        result[3]=$('input[name=radioName]:checked', '#test4').val()
+    })
+
+    $(".submit").click(function(){
+        $("#test1 span").hide()
+        $("#test2 span").hide()
+        $("#test3 span").hide()
+        $("#test4 span").hide()
+
+        console.log(result)
+        if(result.length==4){
+            if(result[0]!="d"&&result[0]!=undefined)
+                $("#test1 span").show()
+            if(result[1]!="b"&&result[1]!=undefined)
+                $("#test2 span").show()
+            if(result[2]!="b"&&result[2]!=undefined)
+                $("#test3 span").show()
+            if(result[3]!="a"&&result[3]!=undefined)
+                $("#test4 span").show()
+        }
+
+
+        if(result.equals(["d","b","b","a"])){
+            $("#result").html("<p>Congratulations:) you pass the quiz and please start your evaluation tasks from <a href='./task' target='_blank' class='gray-link'>here</a>.</p>")
+            $("#result").css("background-color","green")
+
+        }else if(result.length<4){
+            $("#result").html("<p>Please finish the above questions.</p>")
+            $("#result").css("background-color","red")
+        }
+        else{
+            $("#result").html("<p>Sorry:( you do not pass the quiz and please watch the <a href='./welcome3-2' target='_blank' class='gray-link'>tutorial</a> again.</p>")
+            $("#result").css("background-color","red")
+        }
+    })
+
+    // Warn if overriding existing method
+    if(Array.prototype.equals)
+        console.warn("Overriding existing Array.prototype.equals. Possible causes: New API defines the method, there's a framework conflict or you've got double inclusions in your code.");
+    // attach the .equals method to Array's prototype to call it on any array
+    Array.prototype.equals = function (array) {
+        // if the other array is a falsy value, return
+        if (!array)
+            return false;
+
+        // compare lengths - can save a lot of time
+        if (this.length != array.length)
+            return false;
+
+        for (var i = 0, l=this.length; i < l; i++) {
+            // Check if we have nested arrays
+            if (this[i] instanceof Array && array[i] instanceof Array) {
+                // recurse into the nested arrays
+                if (!this[i].equals(array[i]))
+                    return false;
+            }
+            else if (this[i] != array[i]) {
+                // Warning - two different object instances will never be equal: {x:20} != {x:20}
+                return false;
+            }
+        }
+        return true;
+    }
+    // Hide method from for-in loops
+    Object.defineProperty(Array.prototype, "equals", {enumerable: false});
+
+</script>
+</body>
+</html>

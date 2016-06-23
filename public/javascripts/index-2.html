@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>IntersectionExplorer</title>
+    <script src="./javascripts/google-analytics.js"></script>
+    <script src="//d3js.org/d3.v3.min.js" charset="utf-8"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+    <!--<script src="lib/colorbrewer.js" charset="utf-8"></script>-->
+    <link rel="stylesheet" type="text/css" href="./javascripts/css/html_styles.css">
+    <link rel="stylesheet" type="text/css" href="./javascripts/css/set_view.css">
+    <!--<link rel="stylesheet" type="text/css" href="./javascripts/css/element_view.css">-->
+    <link rel="stylesheet" type="text/css"
+          href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css" rel="stylesheet">
+
+
+    <!-- Fav and touch icons -->
+    <link rel="shortcut icon" type="image/x-icon" href="./javascripts/images/favicon.ico"/>
+    <link rel="apple-touch-icon" href="./javascripts/images/shield.gif"/>
+
+    <!-- You can use open graph tags to customize link previews.
+      Learn more: https://developers.facebook.com/docs/sharing/webmasters -->
+    <meta property="og:url" content="https://daddi.cs.kuleuven.be/iestudy/"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:title" content="IntersectionExplorer"/>
+    <meta property="og:description"
+          content="IntersectionExplorer is an interactive visualization that allows you to explore papers of the IUI 2016 conference. The visualization shows you papers that you have bookmarked in Conference Navigator and users who are similar to you because they bookmarked similar papers. In addition, this visualization enables you to explore recommendations that are generated based on your interests."/>
+    <meta property="og:image" content="https://daddi.cs.kuleuven.be/iestudy/javascripts/introduction/images/ie.png"/>
+
+</head>
+<body>
+<div id="dialog" title="Sign in">
+    <label id="errorMessage"></label>
+    <!--<form id = "login-form">-->
+    <!--<fieldset>-->
+    <label for="email" class="ui-corner-all">Last.fm Username</label>
+    <input type="text" name="email" id="email" class="text ui-widget-content ui-corner-all">
+    <!--<label for="password" class="ui-corner-all">Password</label>-->
+    <!--<input type="password" name="password" id="password"  class="text ui-widget-content ui-corner-all">-->
+    <!--<label>No account? Create one <a href="http://halley.exp.sis.pitt.edu/cn3/signup.php?conferenceID=">here</a>.</label>-->
+    <!--</form>-->
+</div>
+<!-- Load Facebook SDK for JavaScript -->
+<div id="fb-root"></div>
+<script>(function (d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js     = d.createElement(s);
+    js.id  = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+<div class="ui-header">
+    <div class="header-container">
+        <span class="header">IntersectionExplorer - Exploring Music Recommendations with Last.fm</span>
+        <span id="login-header" class="header-right-clickable">Sign in</span>
+
+        <div class="fb-like header-right-clickable" data-href="https://daddi.cs.kuleuven.be/iestudy/" data-width="225"
+             data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+
+        <span class="header-right-clickable"><a id="intro-header" href="https://daddi.cs.kuleuven.be/music/welcome"
+                                                target="_blank">How to Use</a></span>
+
+        <!--<span id="dataset-selector" class="header-right"></span>-->
+    </div>
+</div>
+
+<div class="ui-fader" id="fader">
+    <!--<img src="./javascripts/images/31.gif" height = "64px" width="64px"/>-->
+</div>
+
+<div class="ui-container">
+    <!--<div class="ui-row">-->
+
+    <!--------------- Left Side configuration menu ------------------>
+    <!--<div class="ui-column ui-layout-west">-->
+    <div id="ui-west">
+
+        <div class="ui-column configTable">
+            <div class="configHeader">Select from...</div>
+            <div>
+                <table cellpadding="0" cellspacing="0" border="0">
+                    <tr>
+                        <td rowspan="2"><input id="searchInput" type="search" style="width:150px"
+                                               placeholder="search... "/></td>
+                        <td><input id="upButton" type="button" value=" /\ "
+                                   style="margin:0;padding:0;width:22px;height:28px;"></td>
+                        <td rowspan="2"><label id="searchResult"></label></td>
+                    </tr>
+                    <tr>
+                        <td><input id="downButton" type=button value=" \/ "
+                                   style="margin:0;padding:0;width:22px;height:28px;"></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div id="checkBoxes" class="ui-column">
+        </div>
+
+    </div>
+
+
+    <!---------------center panel with set view  ------------------>
+    <div id="set-vis-container" data-height-ratio="1" class="ui-column">
+        <p id="task-text"><b>Task:</b> Explore the visualisation in detail and listen to and like the songs in the right side panel that you find interesting. Try to listen to and find at least 10 songs that you find interesting by interacting with different rows in the visualisation. You can add friends and tags to add more songs.
+            After you have have added at least <b>3 more Friends or Tags</b> on left panel and then have interacted with at least <b>5 rows</b> and have found from these different rows <b>10 songs</b> that you really like, a link to the final questionnaire will appear.</p>
+        <p id="questionnaire" class="header-right-clickable"><a
+                href="http://goo.gl/forms/B1vnwEBgLahTRRmM2"
+                target="_blank">Now you can start to fill out a questionnaire, please!</a></p>
+        <br>
+        <br>
+        <br>
+
+        <div id="headerVis">
+
+        </div>
+
+        <div id="bodyVis">
+
+        </div>
+
+    </div>
+
+    <span id="moveHandle" class="handle"></span>
+
+    <!---------------right panel with element view  ------------------>
+
+    <!--<div class="ui-column ui-layout-east">-->
+    <div id="element-view-part" class="ui-column">
+
+        <!--<div class="element-view-header">-->
+        <div class="element-view-subtitle noselect configHeader">
+            Selected tracks
+        </div>
+        <div id="element-view-description"></div>
+        <!--</div>-->
+        <!--<div id="item-table-container" data-height-ratio="1" class="fixed-y-container element-view-container">-->
+        <div id="item-table">
+        </div>
+
+        <div class="sk-fading-circle">
+            <div class="sk-circle1 sk-circle"></div>
+            <div class="sk-circle2 sk-circle"></div>
+            <div class="sk-circle3 sk-circle"></div>
+            <div class="sk-circle4 sk-circle"></div>
+            <div class="sk-circle5 sk-circle"></div>
+            <div class="sk-circle6 sk-circle"></div>
+            <div class="sk-circle7 sk-circle"></div>
+            <div class="sk-circle8 sk-circle"></div>
+            <div class="sk-circle9 sk-circle"></div>
+            <div class="sk-circle10 sk-circle"></div>
+            <div class="sk-circle11 sk-circle"></div>
+            <div class="sk-circle12 sk-circle"></div>
+        </div>
+
+        <div id= "loadmore" style="display: none; text-align: center"><img src="./javascripts/images/faq-loadmore.png" style="height: 30%; width: 30%;"/></div>
+        <!--<div id= "loadmore" style="display: none; text-align: center"><button class="button">Load more</button></div>-->
+
+        <!--</div>-->
+    </div>
+
+</div>
+<div id="tipbar"></div>
+<script type="text/javascript" src="./javascripts/event-manager.js"></script>
+<script type="text/javascript" src="./javascripts/userBehavior.js"></script>
+<!--<script type="text/javascript" src="venn.js"></script>-->
+<script type="text/javascript" src="./javascripts/utilities.js"></script>
+<script type="text/javascript" src="./javascripts/attribute.js"></script>
+
+<!--<script type="text/javascript" src="lib/d3.layout.cloud.js"></script>-->
+<!--
+<script type="text/javascript" src="viewer/word-cloud.js"></script>
+<script type="text/javascript" src="viewer/scatterplot.js"></script>
+<script type="text/javascript" src="viewer/histogram.js"></script>
+<script type="text/javascript" src="viewer/variant-frequency.js"></script>
+-->
+<script type="text/javascript" src="./javascripts/dataParser.js"></script>
+<script type="text/javascript" src="./javascripts/element-viewer.js"></script>
+<script type="text/javascript" src="./javascripts/dataLoading.js"></script>
+<script type="text/javascript" src="./javascripts/filter.js"></script>
+<script type="text/javascript" src="./javascripts/selection.js"></script>
+<script type="text/javascript" src="./javascripts/dataStructure.js"></script>
+<script type="text/javascript" src="./javascripts/ui.js"></script>
+<script type="text/javascript" src="./javascripts/setSelection.js"></script>
+<script type="text/javascript" src="./javascripts/sort.js"></script>
+<script type="text/javascript" src="./javascripts/highlight.js"></script>
+<!--<script type="text/javascript" src="scrollbar.js"></script>-->
+<script type="text/javascript" src="./javascripts/items.js"></script>
+<script type="text/javascript" src="./javascripts/setGrouping.js"></script>
+<!--<script type="text/javascript" src="./javascripts/logicPanel.js"></script>-->
+<script type="text/javascript" src="./javascripts/brushableScale.js"></script>
+<!--<script type="text/javascript" src="statisticGraphs.js"></script>-->
+<script type="text/javascript" src="./javascripts/upset.js"></script>
+<script>
+    //var uid = location.search.split('uid=')[1]
+    //  var name = location.search.split('name=')[1]
+    //  var ne = name.split('&')[0];
+    $(document).ready(function () {
+        ui = new Ui();
+
+        $(window).resize(ui.resize);
+
+        $(EventManager).bind("ui-resize", function (event, data) {
+            ui.updateFixedHeightContainers();
+        });
+
+        $(EventManager).bind("ui-vertical-resize", function (event, data) {
+            ui.updateFixedHeightContainers();
+        });
+
+        $(EventManager).bind("ui-horizontal-resize", function (event, data) {
+            // nothing so far
+        });
+    });
+
+</script>
+
+</body>
+</html>

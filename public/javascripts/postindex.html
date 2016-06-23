@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>IntersectionExplorer</title>
+    <script src="./google-analytics.js"></script>
+    <script src="//d3js.org/d3.v3.min.js" charset="utf-8"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+    <!--<script src="lib/colorbrewer.js" charset="utf-8"></script>-->
+    <link rel="stylesheet" type="text/css" href="./css/html_styles.css">
+    <link rel="stylesheet" type="text/css" href="./css/set_view.css">
+    <!--<link rel="stylesheet" type="text/css" href="./javascripts/css/element_view.css">-->
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css" rel="stylesheet">
+
+
+    <!-- Fav and touch icons -->
+    <link rel="shortcut icon" type="image/x-icon" href="./images/favicon.ico"/>
+    <link rel="apple-touch-icon" href="./images/shield.gif"/>
+
+    <!-- You can use open graph tags to customize link previews.
+      Learn more: https://developers.facebook.com/docs/sharing/webmasters -->
+    <meta property="og:url"           content="https://daddi.cs.kuleuven.be/iestudy/" />
+    <meta property="og:type"          content="website" />
+    <meta property="og:title"         content="IntersectionExplorer" />
+    <meta property="og:description"   content="IntersectionExplorer is an interactive visualization that allows you to explore papers of the IUI 2016 conference. The visualization shows you papers that you have bookmarked in Conference Navigator and users who are similar to you because they bookmarked similar papers. In addition, this visualization enables you to explore recommendations that are generated based on your interests." />
+    <meta property="og:image"         content="https://daddi.cs.kuleuven.be/iestudy/javascripts/introduction/images/ie.png" />
+
+</head>
+<body>
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+<div class="ui-header">
+    <div class="header-container">
+        <span class="header">IntersectionExplorer - Exploring IUI 2016 Papers with Intersecting Sets</span>
+        <span id="login-header" class="header-right-clickable">Sign in</span>
+        <div class="fb-like header-right-clickable" data-href="https://daddi.cs.kuleuven.be/iestudy/" data-width="225" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+
+        <span id="questionnaire" class="header-right-clickable"><a href="https://docs.google.com/forms/d/1jMsy75Y54BgBlerk7rXfvhe3I80xFwZUtyWa-z-r1ac/viewform" target="_blank">Fill out a questionnaire, please!</a></span>
+
+        <span class="header-right-clickable"><a id= "intro-header"href="https://www.youtube.com/watch?v=1Jq3oUZv-9E" target="_blank">How to Use</a></span>
+
+        <!--<span id="dataset-selector" class="header-right"></span>-->
+    </div>
+</div>
+
+<div class="ui-fader" id="fader">
+    <!--<img src="./javascripts/images/31.gif" height = "64px" width="64px"/>-->
+</div>
+
+<div class="ui-container">
+    <!--<div class="ui-row">-->
+
+    <!--------------- Left Side configuration menu ------------------>
+    <!--<div class="ui-column ui-layout-west">-->
+    <div id="ui-west" >
+
+        <div class="ui-column configTable">
+            <div class="configHeader">Select from...</div>
+            <div>
+                <table cellpadding="0" cellspacing="0" border="0">
+                    <tr>
+                        <td rowspan="2"><input id="searchInput" type="search" style="width:150px" placeholder="search... "/></td>
+                        <td><input id="upButton" type="button" value=" /\ " style="margin:0;padding:0;width:22px;height:28px;" ></td>
+                        <td rowspan="2"><label id="searchResult"></label></td>
+                    </tr>
+                    <tr>
+                        <td><input id="downButton" type=button value=" \/ " style="margin:0;padding:0;width:22px;height:28px;" ></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div id = "checkBoxes" class="ui-column">
+        </div>
+
+    </div>
+
+
+    <!---------------center panel with set view  ------------------>
+    <div id="set-vis-container" data-height-ratio="1" class="ui-column">
+        <div id="headerVis">
+
+        </div>
+
+        <div id="bodyVis">
+
+        </div>
+
+    </div>
+
+    <span id="moveHandle" class = "handle"></span>
+
+    <!---------------right panel with element view  ------------------>
+
+    <!--<div class="ui-column ui-layout-east">-->
+    <div id="element-view-part" class = "ui-column">
+
+        <!--<div id="sortConfig" class="configTable">-->
+        <!--<div class="configHeader">Sort by</div>-->
+        <!--<div>number of papers</div>-->
+        <!--<div>-->
+        <!--<input type='radio' id='sortIntersectionSizeAscend' name='sort' checked="true">-->
+        <!--<label for="sortIntersectionSizeAscend"><img src="./javascripts/images/ascend.png" width="15" height="15"/> Ascending</label>-->
+        <!--</div>-->
+        <!--<div>-->
+        <!--<input type='radio' id='sortIntersectionSize' name='sort'>-->
+        <!--<label for="sortIntersectionSize"><img src="./javascripts/images/descend.png" width="15" height="15"/> Descending</label>-->
+        <!--</div>-->
+        <!--<div>number of related sets</div>-->
+        <!--<div>-->
+        <!--<input type='radio' id='sortNrSetsInIntersectionAscend' name='sort'>-->
+        <!--<label for="sortNrSetsInIntersectionAscend"><img src="./javascripts/images/ascend.png" width="15" height="15"/> Ascending</label>-->
+        <!--</div>-->
+        <!--<div>-->
+        <!--<input type='radio' id='sortNrSetsInIntersectionDescend' name='sort'>-->
+        <!--<label for="sortNrSetsInIntersectionDescend"><img src="./javascripts/images/descend.png" width="15" height="15"/> Descending</label>-->
+        <!--</div>-->
+        <!--</div>-->
+
+        <!--<div class="element-view-header">-->
+        <div class="element-view-subtitle noselect configHeader">
+            Selected papers
+        </div>
+        <div id="element-view-description"></div>
+        <!--</div>-->
+
+        <!--<div id="item-table-container" data-height-ratio="1" class="fixed-y-container element-view-container">-->
+        <div id="item-table"></div>
+        <!--</div>-->
+    </div>
+</div>
+<div id="tipbar"></div>
+
+    <script type="text/javascript" src="./event-manager.js"></script>
+    <script type="text/javascript" src="./userBehavior.js"></script>
+    <!--<script type="text/javascript" src="venn.js"></script>-->
+    <script type="text/javascript" src="./utilities.js"></script>
+    <script type="text/javascript" src="./attribute.js"></script>
+
+    <!--<script type="text/javascript" src="lib/d3.layout.cloud.js"></script>-->
+    <!--
+    <script type="text/javascript" src="viewer/word-cloud.js"></script>
+    <script type="text/javascript" src="viewer/scatterplot.js"></script>
+    <script type="text/javascript" src="viewer/histogram.js"></script>
+    <script type="text/javascript" src="viewer/variant-frequency.js"></script>
+    -->
+    <script type="text/javascript" src="./dataParser.js"></script>
+    <script type="text/javascript" src="./element-viewer.js"></script>
+    <script type="text/javascript" src="./dataLoading.js"></script>
+    <script type="text/javascript" src="./filter.js"></script>
+    <script type="text/javascript" src="./selection.js"></script>
+    <script type="text/javascript" src="./dataStructure.js"></script>
+    <script type="text/javascript" src="./ui.js"></script>
+    <script type="text/javascript" src="./setSelection.js"></script>
+    <script type="text/javascript" src="./sort.js"></script>
+    <script type="text/javascript" src="./highlight.js"></script>
+    <!--<script type="text/javascript" src="scrollbar.js"></script>-->
+    <script type="text/javascript" src="./items.js"></script>
+    <script type="text/javascript" src="./setGrouping.js"></script>
+    <!--<script type="text/javascript" src="./javascripts/logicPanel.js"></script>-->
+    <script type="text/javascript" src="./brushableScale.js"></script>
+    <!--<script type="text/javascript" src="statisticGraphs.js"></script>-->
+    <script type="text/javascript" src="./upset.min.js"></script>
+
+<script>
+    var globalCode = location.search.split('code=')[1]
+$(document).ready(function () {
+ui = new Ui(globalCode);
+
+$(window).resize(ui.resize);
+
+$(EventManager).bind("ui-resize", function (event, data) {
+ui.updateFixedHeightContainers();
+});
+
+$(EventManager).bind("ui-vertical-resize", function (event, data) {
+ui.updateFixedHeightContainers();
+});
+
+$(EventManager).bind("ui-horizontal-resize", function (event, data) {
+// nothing so far
+});
+});
+</script>
+
+</body>

@@ -1,0 +1,119 @@
+[
+	{
+		"name": "fox116",
+		"time": "07 @ 13:02:19"
+	},
+	{
+		"type": 4,
+		"setsCombination": [
+			[
+				{
+					"name": null,
+					"type": null
+				}
+			]
+		],
+		"group_type": "NONQUERY_GROUP",
+		"query_header": "normal",
+		"Items": 850,
+		"time": "07 @ 13:02:23"
+	},
+	{
+		"type": 3,
+		"setsCombination": [
+			[
+				{
+					"name": null,
+					"type": null
+				}
+			]
+		],
+		"itemNumber": 850,
+		"group_type": "NONQUERY_GROUP",
+		"time": "07 @ 13:02:18"
+	},
+	{
+		"type": 4,
+		"setsCombination": [
+			[
+				{
+					"name": "indie rock (50)",
+					"type": 2,
+					"state": 1
+				}
+			]
+		],
+		"group_type": "NONQUERY_GROUP",
+		"query_header": "normal",
+		"Items": 26,
+		"time": "07 @ 13:02:43"
+	},
+	{
+		"type": 3,
+		"setsCombination": [
+			[
+				{
+					"name": "indie rock (50)",
+					"type": 2,
+					"state": 1
+				}
+			]
+		],
+		"itemNumber": 26,
+		"group_type": "NONQUERY_GROUP",
+		"time": "07 @ 13:02:42"
+	},
+	{
+		"type": 1,
+		"set": [
+			{
+				"name": "punk (48)",
+				"type": 2
+			}
+		],
+		"check": true,
+		"usedSets": [
+			{
+				"name": "most popular tracks (11)",
+				"type": 0
+			},
+			{
+				"name": "lovedTrack-based agent (105)",
+				"type": 0
+			},
+			{
+				"name": "yourArtists-based agent (67)",
+				"type": 0
+			},
+			{
+				"name": "  fox116 (37/37)",
+				"type": 1
+			},
+			{
+				"name": "alternative (50)",
+				"type": 2
+			},
+			{
+				"name": "classic rock (46)",
+				"type": 2
+			},
+			{
+				"name": "experimental (49)",
+				"type": 2
+			},
+			{
+				"name": "glam rock (49)",
+				"type": 2
+			},
+			{
+				"name": "indie rock (50)",
+				"type": 2
+			},
+			{
+				"name": "punk (48)",
+				"type": 2
+			}
+		],
+		"time": "07 @ 13:02:53"
+	}
+]

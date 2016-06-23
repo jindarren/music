@@ -1,0 +1,599 @@
+[
+	{
+		"name": "qaz23",
+		"time": "16 @ 11:48:52"
+	},
+	{
+		"type": 0,
+		"usedSets": [
+			{
+				"name": "most popular tracks (11)",
+				"numOfIntersections": 0
+			},
+			{
+				"name": "lovedTrack-based agent (102)",
+				"numOfIntersections": 0
+			},
+			{
+				"name": "yourArtists-based agent (96)",
+				"numOfIntersections": 0
+			},
+			{
+				"name": "qaz23 (30/30)",
+				"numOfIntersections": 1
+			}
+		],
+		"time": "16 @ 11:49:07"
+	},
+	{
+		"type": 1,
+		"set": [
+			{
+				"name": "unpunk (0/36)",
+				"type": 1
+			}
+		],
+		"check": true,
+		"usedSets": [
+			{
+				"name": "most popular tracks (11)",
+				"numOfIntersections": 0
+			},
+			{
+				"name": "lovedTrack-based agent (102)",
+				"numOfIntersections": 0
+			},
+			{
+				"name": "yourArtists-based agent (96)",
+				"numOfIntersections": 0
+			},
+			{
+				"name": "qaz23 (30/30)",
+				"numOfIntersections": 1
+			},
+			{
+				"name": "unpunk (0/36)",
+				"numOfIntersections": 1
+			}
+		],
+		"time": "16 @ 11:50:18"
+	},
+	{
+		"type": 1,
+		"set": [
+			{
+				"name": "mfitzpat (0/21)",
+				"type": 1
+			}
+		],
+		"check": true,
+		"usedSets": [
+			{
+				"name": "most popular tracks (11)",
+				"numOfIntersections": 0
+			},
+			{
+				"name": "lovedTrack-based agent (102)",
+				"numOfIntersections": 0
+			},
+			{
+				"name": "yourArtists-based agent (96)",
+				"numOfIntersections": 0
+			},
+			{
+				"name": "qaz23 (30/30)",
+				"numOfIntersections": 1
+			},
+			{
+				"name": "unpunk (0/36)",
+				"numOfIntersections": 1
+			},
+			{
+				"name": "mfitzpat (0/21)",
+				"numOfIntersections": 1
+			}
+		],
+		"time": "16 @ 11:50:22"
+	},
+	{
+		"type": 1,
+		"set": [
+			{
+				"name": "dramandy (0/21)",
+				"type": 1
+			}
+		],
+		"check": true,
+		"usedSets": [
+			{
+				"name": "most popular tracks (11)",
+				"numOfIntersections": 0
+			},
+			{
+				"name": "lovedTrack-based agent (102)",
+				"numOfIntersections": 0
+			},
+			{
+				"name": "yourArtists-based agent (96)",
+				"numOfIntersections": 0
+			},
+			{
+				"name": "qaz23 (30/30)",
+				"numOfIntersections": 1
+			},
+			{
+				"name": "unpunk (0/36)",
+				"numOfIntersections": 1
+			},
+			{
+				"name": "mfitzpat (0/21)",
+				"numOfIntersections": 1
+			},
+			{
+				"name": "dramandy (0/21)",
+				"numOfIntersections": 1
+			}
+		],
+		"time": "16 @ 11:50:23"
+	},
+	{
+		"type": 1,
+		"set": [
+			{
+				"name": "pplist (0/16)",
+				"type": 1
+			}
+		],
+		"check": true,
+		"usedSets": [
+			{
+				"name": "most popular tracks (11)",
+				"numOfIntersections": 0
+			},
+			{
+				"name": "lovedTrack-based agent (102)",
+				"numOfIntersections": 0
+			},
+			{
+				"name": "yourArtists-based agent (96)",
+				"numOfIntersections": 0
+			},
+			{
+				"name": "qaz23 (30/30)",
+				"numOfIntersections": 1
+			},
+			{
+				"name": "unpunk (0/36)",
+				"numOfIntersections": 1
+			},
+			{
+				"name": "mfitzpat (0/21)",
+				"numOfIntersections": 1
+			},
+			{
+				"name": "dramandy (0/21)",
+				"numOfIntersections": 1
+			},
+			{
+				"name": "pplist (0/16)",
+				"numOfIntersections": 1
+			}
+		],
+		"time": "16 @ 11:50:49"
+	},
+	{
+		"type": 1,
+		"set": [
+			{
+				"name": "myhairlooksflat (0/31)",
+				"type": 1
+			}
+		],
+		"check": true,
+		"usedSets": [
+			{
+				"name": "most popular tracks (11)",
+				"numOfIntersections": 0
+			},
+			{
+				"name": "lovedTrack-based agent (102)",
+				"numOfIntersections": 0
+			},
+			{
+				"name": "yourArtists-based agent (96)",
+				"numOfIntersections": 0
+			},
+			{
+				"name": "qaz23 (30/30)",
+				"numOfIntersections": 1
+			},
+			{
+				"name": "unpunk (0/36)",
+				"numOfIntersections": 1
+			},
+			{
+				"name": "mfitzpat (0/21)",
+				"numOfIntersections": 1
+			},
+			{
+				"name": "dramandy (0/21)",
+				"numOfIntersections": 1
+			},
+			{
+				"name": "pplist (0/16)",
+				"numOfIntersections": 1
+			},
+			{
+				"name": "myhairlooksflat (0/31)",
+				"numOfIntersections": 1
+			}
+		],
+		"time": "16 @ 11:50:55"
+	},
+	{
+		"type": 1,
+		"set": [
+			{
+				"name": "female vocalists (49)",
+				"type": 2
+			}
+		],
+		"check": true,
+		"usedSets": [
+			{
+				"name": "most popular tracks (11)",
+				"numOfIntersections": 0
+			},
+			{
+				"name": "lovedTrack-based agent (102)",
+				"numOfIntersections": 0
+			},
+			{
+				"name": "yourArtists-based agent (96)",
+				"numOfIntersections": 0
+			},
+			{
+				"name": "qaz23 (30/30)",
+				"numOfIntersections": 1
+			},
+			{
+				"name": "unpunk (0/36)",
+				"numOfIntersections": 1
+			},
+			{
+				"name": "mfitzpat (0/21)",
+				"numOfIntersections": 1
+			},
+			{
+				"name": "dramandy (0/21)",
+				"numOfIntersections": 1
+			},
+			{
+				"name": "pplist (0/16)",
+				"numOfIntersections": 1
+			},
+			{
+				"name": "myhairlooksflat (0/31)",
+				"numOfIntersections": 1
+			},
+			{
+				"name": "female vocalists (49)",
+				"numOfIntersections": 2
+			}
+		],
+		"time": "16 @ 11:51:07"
+	},
+	{
+		"type": 1,
+		"set": [
+			{
+				"name": "garage rock (50)",
+				"type": 2
+			}
+		],
+		"check": true,
+		"usedSets": [
+			{
+				"name": "most popular tracks (11)",
+				"numOfIntersections": 0
+			},
+			{
+				"name": "lovedTrack-based agent (102)",
+				"numOfIntersections": 0
+			},
+			{
+				"name": "yourArtists-based agent (96)",
+				"numOfIntersections": 0
+			},
+			{
+				"name": "qaz23 (30/30)",
+				"numOfIntersections": 1
+			},
+			{
+				"name": "unpunk (0/36)",
+				"numOfIntersections": 1
+			},
+			{
+				"name": "mfitzpat (0/21)",
+				"numOfIntersections": 1
+			},
+			{
+				"name": "dramandy (0/21)",
+				"numOfIntersections": 1
+			},
+			{
+				"name": "pplist (0/16)",
+				"numOfIntersections": 1
+			},
+			{
+				"name": "myhairlooksflat (0/31)",
+				"numOfIntersections": 1
+			},
+			{
+				"name": "female vocalists (49)",
+				"numOfIntersections": 2
+			},
+			{
+				"name": "garage rock (50)",
+				"numOfIntersections": 2
+			}
+		],
+		"time": "16 @ 11:51:27"
+	},
+	{
+		"type": 4,
+		"setsCombination": [
+			[
+				{
+					"name": "dramandy (0/21)",
+					"type": 1,
+					"state": 1
+				}
+			]
+		],
+		"group_type": "NONQUERY_GROUP",
+		"query_header": "normal",
+		"Items": 21,
+		"time": "16 @ 11:51:44"
+	},
+	{
+		"type": 7,
+		"item": "The Clock",
+		"time": "16 @ 11:51:58"
+	},
+	{
+		"type": 7,
+		"item": "Siin",
+		"time": "16 @ 11:52:03"
+	},
+	{
+		"type": 4,
+		"setsCombination": [
+			[
+				{
+					"name": "myhairlooksflat (0/31)",
+					"type": 1,
+					"state": 1
+				}
+			]
+		],
+		"group_type": "NONQUERY_GROUP",
+		"query_header": "normal",
+		"Items": 31,
+		"time": "16 @ 11:52:09"
+	},
+	{
+		"type": 7,
+		"item": "Be Good",
+		"time": "16 @ 11:52:16"
+	},
+	{
+		"type": 7,
+		"item": "IV",
+		"time": "16 @ 11:52:20"
+	},
+	{
+		"type": 7,
+		"item": "Screwing Yer Courage",
+		"time": "16 @ 11:52:22"
+	},
+	{
+		"type": 4,
+		"setsCombination": [
+			[
+				{
+					"name": "garage rock (50)",
+					"type": 2,
+					"state": 1
+				}
+			]
+		],
+		"group_type": "NONQUERY_GROUP",
+		"query_header": "normal",
+		"Items": 49,
+		"time": "16 @ 11:52:24"
+	},
+	{
+		"type": 7,
+		"item": "Howlin' for You",
+		"time": "16 @ 11:52:30"
+	},
+	{
+		"type": 4,
+		"setsCombination": [
+			[
+				{
+					"name": "pplist (0/16)",
+					"type": 1,
+					"state": 1
+				}
+			]
+		],
+		"group_type": "NONQUERY_GROUP",
+		"query_header": "normal",
+		"Items": 16,
+		"time": "16 @ 11:52:44"
+	},
+	{
+		"type": 7,
+		"item": "The Ballad of Peter Pumpkinhead",
+		"time": "16 @ 11:52:53"
+	},
+	{
+		"type": 4,
+		"setsCombination": [
+			[
+				{
+					"name": "unpunk (0/36)",
+					"type": 1,
+					"state": 1
+				}
+			]
+		],
+		"group_type": "NONQUERY_GROUP",
+		"query_header": "normal",
+		"Items": 36,
+		"time": "16 @ 11:52:57"
+	},
+	{
+		"type": 4,
+		"setsCombination": [
+			[
+				{
+					"name": "mfitzpat (0/21)",
+					"type": 1,
+					"state": 1
+				}
+			]
+		],
+		"group_type": "NONQUERY_GROUP",
+		"query_header": "normal",
+		"Items": 21,
+		"time": "16 @ 11:53:07"
+	},
+	{
+		"type": 5,
+		"item": "Belfast",
+		"time": "16 @ 11:53:13"
+	},
+	{
+		"type": 7,
+		"item": "The Night Russia Died",
+		"time": "16 @ 11:53:19"
+	},
+	{
+		"type": 7,
+		"item": "Hallowed Ground",
+		"time": "16 @ 11:53:22"
+	},
+	{
+		"type": 4,
+		"setsCombination": [
+			[
+				{
+					"name": "unpunk (0/36)",
+					"type": 1,
+					"state": 1
+				}
+			]
+		],
+		"group_type": "NONQUERY_GROUP",
+		"query_header": "normal",
+		"Items": 36,
+		"time": "16 @ 11:53:24"
+	},
+	{
+		"type": 4,
+		"setsCombination": [
+			[
+				{
+					"name": "female vocalists (49)",
+					"type": 2,
+					"state": 1
+				}
+			]
+		],
+		"group_type": "NONQUERY_GROUP",
+		"query_header": "normal",
+		"Items": 49,
+		"time": "16 @ 11:53:28"
+	},
+	{
+		"type": 4,
+		"setsCombination": [
+			[
+				{
+					"name": "yourArtists-based agent (96)",
+					"type": 0,
+					"state": 1
+				}
+			]
+		],
+		"group_type": "NONQUERY_GROUP",
+		"query_header": "normal",
+		"Items": 91,
+		"time": "16 @ 11:53:39"
+	},
+	{
+		"type": 7,
+		"item": "Red In Tooth and Claw",
+		"time": "16 @ 11:53:44"
+	},
+	{
+		"type": 4,
+		"setsCombination": [
+			[
+				{
+					"name": "yourArtists-based agent (96)",
+					"type": 0,
+					"state": 1
+				}
+			]
+		],
+		"group_type": "NONQUERY_GROUP",
+		"query_header": "normal",
+		"Items": 90,
+		"time": "16 @ 11:53:48"
+	},
+	{
+		"type": 4,
+		"setsCombination": [
+			[
+				{
+					"name": "lovedTrack-based agent (102)",
+					"type": 0,
+					"state": 1
+				}
+			]
+		],
+		"group_type": "NONQUERY_GROUP",
+		"query_header": "normal",
+		"Items": 102,
+		"time": "16 @ 11:53:53"
+	},
+	{
+		"type": 7,
+		"item": "Storms",
+		"time": "16 @ 11:53:58"
+	},
+	{
+		"type": 7,
+		"item": "Invisible City",
+		"time": "16 @ 11:54:01"
+	},
+	{
+		"type": 7,
+		"item": "C'mon Yeah",
+		"time": "16 @ 11:54:03"
+	},
+	{
+		"type": 7,
+		"item": "Grease 2",
+		"time": "16 @ 11:54:06"
+	},
+	{
+		"type": 7,
+		"item": "Reflections",
+		"time": "16 @ 11:54:07"
+	}
+]

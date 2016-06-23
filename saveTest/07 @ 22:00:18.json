@@ -1,0 +1,122 @@
+[
+	{
+		"name": "fox116",
+		"time": "07 @ 12:59:37"
+	},
+	{
+		"type": 1,
+		"set": [
+			{
+				"name": "classic rock (46)",
+				"type": 2
+			}
+		],
+		"check": true,
+		"usedSets": [
+			{
+				"name": "most popular tracks (11)",
+				"type": 0
+			},
+			{
+				"name": "lovedTrack-based agent (105)",
+				"type": 0
+			},
+			{
+				"name": "yourArtists-based agent (67)",
+				"type": 0
+			},
+			{
+				"name": "fox116 (31/31)",
+				"type": 1
+			},
+			{
+				"name": "alternative (50)",
+				"type": 2
+			},
+			{
+				"name": "classic rock (46)",
+				"type": 2
+			}
+		],
+		"time": "07 @ 13:00:07"
+	},
+	{
+		"type": 1,
+		"set": [
+			{
+				"name": "experimental (49)",
+				"type": 2
+			}
+		],
+		"check": true,
+		"usedSets": [
+			{
+				"name": "most popular tracks (11)",
+				"type": 0
+			},
+			{
+				"name": "lovedTrack-based agent (105)",
+				"type": 0
+			},
+			{
+				"name": "yourArtists-based agent (67)",
+				"type": 0
+			},
+			{
+				"name": "fox116 (31/31)",
+				"type": 1
+			},
+			{
+				"name": "alternative (50)",
+				"type": 2
+			},
+			{
+				"name": "classic rock (46)",
+				"type": 2
+			},
+			{
+				"name": "experimental (49)",
+				"type": 2
+			}
+		],
+		"time": "07 @ 13:00:11"
+	},
+	{
+		"type": 2,
+		"sort": [
+			{
+				"name": "experimental (49)",
+				"type": 2
+			}
+		],
+		"time": "07 @ 13:00:13"
+	},
+	{
+		"type": 4,
+		"setsCombination": [
+			{
+				"name": "experimental (49)",
+				"type": 2,
+				"state": 1
+			}
+		],
+		"group_type": "SET_TYPE",
+		"Items": 49,
+		"time": "07 @ 13:00:13"
+	},
+	{
+		"type": 4,
+		"setsCombination": [
+			[
+				{
+					"name": null,
+					"type": null
+				}
+			]
+		],
+		"group_type": "NONQUERY_GROUP",
+		"query_header": "normal",
+		"Items": 919,
+		"time": "07 @ 13:00:18"
+	}
+]

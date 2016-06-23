@@ -1,0 +1,52 @@
+[
+	{
+		"name": "fox116",
+		"time": "07 @ 13:01:13"
+	},
+	{
+		"type": 7,
+		"item": "Creep",
+		"time": "07 @ 13:01:21"
+	},
+	{
+		"type": 7,
+		"item": "Time Is Running Out",
+		"time": "07 @ 13:01:25"
+	},
+	{
+		"type": 7,
+		"item": "Reptilia",
+		"time": "07 @ 13:01:26"
+	},
+	{
+		"type": 7,
+		"item": "I Bet You Look Good on the Dancefloor",
+		"time": "07 @ 13:01:29"
+	},
+	{
+		"type": 4,
+		"setsCombination": [
+			[
+				{
+					"name": "indie rock (50)",
+					"type": 2,
+					"state": 1
+				},
+				{
+					"name": "alternative (50)",
+					"type": 2,
+					"state": 1
+				},
+				{
+					"name": "most popular tracks (11)",
+					"type": 0,
+					"state": 1
+				}
+			]
+		],
+		"group_type": "NONQUERY_GROUP",
+		"query_header": "normal",
+		"Items": 2,
+		"time": "07 @ 13:01:31"
+	}
+]

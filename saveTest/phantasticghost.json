@@ -1,0 +1,436 @@
+[
+	{
+		"name": "phantasticghost",
+		"time": "18 @ 10:26:27"
+	},
+	{
+		"type": 0,
+		"usedSets": [
+			{
+				"name": "most popular tracks (11)",
+				"numOfIntersections": 0
+			},
+			{
+				"name": "lovedTrack-based agent (121)",
+				"numOfIntersections": 0
+			},
+			{
+				"name": "yourArtists-based agent (85)",
+				"numOfIntersections": 0
+			},
+			{
+				"name": "phantasticghost (31/31)",
+				"numOfIntersections": 1
+			}
+		],
+		"time": "18 @ 10:26:36"
+	},
+	{
+		"type": 4,
+		"setsCombination": [
+			[
+				{
+					"name": "phantasticghost (31/31)",
+					"type": 1,
+					"state": 1
+				},
+				{
+					"name": "yourArtists-based agent (85)",
+					"type": 0,
+					"state": 1
+				}
+			]
+		],
+		"group_type": "NONQUERY_GROUP",
+		"query_header": "normal",
+		"Items": 2,
+		"time": "18 @ 10:27:16"
+	},
+	{
+		"type": 4,
+		"setsCombination": [
+			[
+				{
+					"name": "phantasticghost (31/31)",
+					"type": 1,
+					"state": 1
+				},
+				{
+					"name": "yourArtists-based agent (85)",
+					"type": 0,
+					"state": 1
+				}
+			]
+		],
+		"group_type": "NONQUERY_GROUP",
+		"query_header": "normal",
+		"Items": 2,
+		"time": "18 @ 10:27:19"
+	},
+	{
+		"type": 4,
+		"setsCombination": [
+			[
+				{
+					"name": "phantasticghost (31/31)",
+					"type": 1,
+					"state": 1
+				},
+				{
+					"name": "lovedTrack-based agent (121)",
+					"type": 0,
+					"state": 1
+				}
+			]
+		],
+		"group_type": "NONQUERY_GROUP",
+		"query_header": "normal",
+		"Items": 3,
+		"time": "18 @ 10:27:21"
+	},
+	{
+		"type": 4,
+		"setsCombination": [
+			[
+				{
+					"name": "phantasticghost (31/31)",
+					"type": 1,
+					"state": 1
+				},
+				{
+					"name": "lovedTrack-based agent (121)",
+					"type": 0,
+					"state": 1
+				}
+			]
+		],
+		"group_type": "NONQUERY_GROUP",
+		"query_header": "normal",
+		"Items": 3,
+		"time": "18 @ 10:27:23"
+	},
+	{
+		"type": 4,
+		"setsCombination": [
+			[
+				{
+					"name": "most popular tracks (11)",
+					"type": 0,
+					"state": 1
+				}
+			]
+		],
+		"group_type": "NONQUERY_GROUP",
+		"query_header": "normal",
+		"Items": 11,
+		"time": "18 @ 10:27:24"
+	},
+	{
+		"type": 1,
+		"set": [
+			{
+				"name": "Juared (0/39)",
+				"type": 1
+			}
+		],
+		"check": true,
+		"usedSets": [
+			{
+				"name": "most popular tracks (11)",
+				"numOfIntersections": 0
+			},
+			{
+				"name": "lovedTrack-based agent (121)",
+				"numOfIntersections": 0
+			},
+			{
+				"name": "yourArtists-based agent (85)",
+				"numOfIntersections": 0
+			},
+			{
+				"name": "phantasticghost (31/31)",
+				"numOfIntersections": 1
+			},
+			{
+				"name": "Juared (0/39)",
+				"numOfIntersections": 1
+			}
+		],
+		"time": "18 @ 10:27:39"
+	},
+	{
+		"type": 1,
+		"set": [
+			{
+				"name": "gabrieljay (0/34)",
+				"type": 1
+			}
+		],
+		"check": true,
+		"usedSets": [
+			{
+				"name": "most popular tracks (11)",
+				"numOfIntersections": 0
+			},
+			{
+				"name": "lovedTrack-based agent (121)",
+				"numOfIntersections": 0
+			},
+			{
+				"name": "yourArtists-based agent (85)",
+				"numOfIntersections": 0
+			},
+			{
+				"name": "phantasticghost (31/31)",
+				"numOfIntersections": 1
+			},
+			{
+				"name": "Juared (0/39)",
+				"numOfIntersections": 1
+			},
+			{
+				"name": "gabrieljay (0/34)",
+				"numOfIntersections": 1
+			}
+		],
+		"time": "18 @ 10:28:10"
+	},
+	{
+		"type": 1,
+		"set": [
+			{
+				"name": "whynotdex (0/17)",
+				"type": 1
+			}
+		],
+		"check": true,
+		"usedSets": [
+			{
+				"name": "most popular tracks (11)",
+				"numOfIntersections": 0
+			},
+			{
+				"name": "lovedTrack-based agent (121)",
+				"numOfIntersections": 0
+			},
+			{
+				"name": "yourArtists-based agent (85)",
+				"numOfIntersections": 0
+			},
+			{
+				"name": "phantasticghost (31/31)",
+				"numOfIntersections": 1
+			},
+			{
+				"name": "Juared (0/39)",
+				"numOfIntersections": 1
+			},
+			{
+				"name": "gabrieljay (0/34)",
+				"numOfIntersections": 1
+			},
+			{
+				"name": "whynotdex (0/17)",
+				"numOfIntersections": 1
+			}
+		],
+		"time": "18 @ 10:28:13"
+	},
+	{
+		"type": 7,
+		"item": "Midnight City",
+		"time": "18 @ 10:28:29"
+	},
+	{
+		"type": 7,
+		"item": "Karma Police",
+		"time": "18 @ 10:28:31"
+	},
+	{
+		"type": 7,
+		"item": "Mr. Brightside",
+		"time": "18 @ 10:28:32"
+	},
+	{
+		"type": 4,
+		"setsCombination": [
+			[
+				{
+					"name": "  phantasticghost (34/34)",
+					"type": 1,
+					"state": 1
+				},
+				{
+					"name": "lovedTrack-based agent (121)",
+					"type": 0,
+					"state": 1
+				}
+			]
+		],
+		"group_type": "NONQUERY_GROUP",
+		"query_header": "normal",
+		"Items": 3,
+		"time": "18 @ 10:28:35"
+	},
+	{
+		"type": 4,
+		"setsCombination": [
+			[
+				{
+					"name": "  phantasticghost (34/34)",
+					"type": 1,
+					"state": 1
+				},
+				{
+					"name": "most popular tracks (11)",
+					"type": 0,
+					"state": 1
+				}
+			]
+		],
+		"group_type": "NONQUERY_GROUP",
+		"query_header": "normal",
+		"Items": 3,
+		"time": "18 @ 10:28:37"
+	},
+	{
+		"type": 4,
+		"setsCombination": [
+			[
+				{
+					"name": "  phantasticghost (34/34)",
+					"type": 1,
+					"state": 1
+				},
+				{
+					"name": "most popular tracks (11)",
+					"type": 0,
+					"state": 1
+				}
+			]
+		],
+		"group_type": "NONQUERY_GROUP",
+		"query_header": "normal",
+		"Items": 3,
+		"time": "18 @ 10:28:38"
+	},
+	{
+		"type": 4,
+		"setsCombination": [
+			[
+				{
+					"name": "  phantasticghost (34/34)",
+					"type": 1,
+					"state": 1
+				},
+				{
+					"name": "most popular tracks (11)",
+					"type": 0,
+					"state": 1
+				}
+			]
+		],
+		"group_type": "NONQUERY_GROUP",
+		"query_header": "normal",
+		"Items": 3,
+		"time": "18 @ 10:28:39"
+	},
+	{
+		"type": 4,
+		"setsCombination": [
+			[
+				{
+					"name": "gabrieljay (0/34)",
+					"type": 1,
+					"state": 1
+				}
+			]
+		],
+		"group_type": "NONQUERY_GROUP",
+		"query_header": "normal",
+		"Items": 34,
+		"time": "18 @ 10:28:40"
+	},
+	{
+		"type": 7,
+		"item": "Steal My Sunshine",
+		"time": "18 @ 10:28:51"
+	},
+	{
+		"type": 7,
+		"item": "Love Comes Close",
+		"time": "18 @ 10:28:58"
+	},
+	{
+		"type": 7,
+		"item": "Panis et circenses",
+		"time": "18 @ 10:29:01"
+	},
+	{
+		"type": 4,
+		"setsCombination": [
+			[
+				{
+					"name": "whynotdex (0/17)",
+					"type": 1,
+					"state": 1
+				}
+			]
+		],
+		"group_type": "NONQUERY_GROUP",
+		"query_header": "normal",
+		"Items": 17,
+		"time": "18 @ 10:29:05"
+	},
+	{
+		"type": 7,
+		"item": "Heaven or Las Vegas",
+		"time": "18 @ 10:29:17"
+	},
+	{
+		"type": 4,
+		"setsCombination": [
+			[
+				{
+					"name": null,
+					"type": null
+				}
+			]
+		],
+		"group_type": "NONQUERY_GROUP",
+		"query_header": "normal",
+		"Items": 1912,
+		"time": "18 @ 10:29:21"
+	},
+	{
+		"type": 4,
+		"setsCombination": [
+			[
+				{
+					"name": "lovedTrack-based agent (121)",
+					"type": 0,
+					"state": 1
+				}
+			]
+		],
+		"group_type": "NONQUERY_GROUP",
+		"query_header": "normal",
+		"Items": 113,
+		"time": "18 @ 10:29:37"
+	},
+	{
+		"type": 7,
+		"item": "No Control",
+		"time": "18 @ 10:29:42"
+	},
+	{
+		"type": 7,
+		"item": "Cruel World",
+		"time": "18 @ 10:30:13"
+	},
+	{
+		"type": 7,
+		"item": "Money Power Glory",
+		"time": "18 @ 10:30:14"
+	}
+]

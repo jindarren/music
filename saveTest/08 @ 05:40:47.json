@@ -1,0 +1,84 @@
+[
+	{
+		"name": "brenkelieshere",
+		"time": "07 @ 20:40:41"
+	},
+	{
+		"type": 3,
+		"setsCombination": [
+			[
+				{
+					"name": "Brownguy (0/43)",
+					"type": 1,
+					"state": 1
+				}
+			]
+		],
+		"itemNumber": 43,
+		"group_type": "NONQUERY_GROUP",
+		"time": "07 @ 20:40:40"
+	},
+	{
+		"type": 4,
+		"setsCombination": [
+			[
+				{
+					"name": "Brownguy (0/43)",
+					"type": 1,
+					"state": 1
+				}
+			]
+		],
+		"group_type": "NONQUERY_GROUP",
+		"query_header": "normal",
+		"Items": 43,
+		"time": "07 @ 20:40:46"
+	},
+	{
+		"type": 4,
+		"setsCombination": [
+			[
+				{
+					"name": "Brownguy (0/43)",
+					"type": 1,
+					"state": 1
+				}
+			]
+		],
+		"group_type": "NONQUERY_GROUP",
+		"query_header": "normal",
+		"Items": 43,
+		"time": "07 @ 20:40:52"
+	},
+	{
+		"type": 3,
+		"setsCombination": [
+			[
+				{
+					"name": "Brownguy (0/43)",
+					"type": 1,
+					"state": 1
+				}
+			]
+		],
+		"itemNumber": 43,
+		"group_type": "NONQUERY_GROUP",
+		"time": "07 @ 20:40:46"
+	},
+	{
+		"type": 4,
+		"setsCombination": [
+			[
+				{
+					"name": "paloalto45 (0/47)",
+					"type": 1,
+					"state": 1
+				}
+			]
+		],
+		"group_type": "NONQUERY_GROUP",
+		"query_header": "normal",
+		"Items": 46,
+		"time": "07 @ 20:41:00"
+	}
+]

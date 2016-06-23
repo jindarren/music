@@ -1,0 +1,35 @@
+{
+	"file": "",
+	"name": "Online User Bookmark - Google Drive",
+	"header": 0,
+	"separator": ";",
+	"skip": 0,
+	"meta": [{
+		"type": "id",
+		"index": 0,
+		"name": "name"
+	}, {
+		"type": "string",
+		"index": 1,
+		"name": "presentationID"
+	}, {
+		"type": "string",
+		"index": 2,
+		"name": "Title"
+	}, {
+		"type": "string",
+		"index": 3,
+		"name": "Authors"
+	}],
+	"sets": [{
+		"name": "Recommendations",
+		"format": "binary",
+		"start": 4,
+		"end": 4
+	}, {
+		"name": "Similar users",
+		"format": "binary",
+		"start": 5,
+		"end": 19
+	}]
+}

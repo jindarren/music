@@ -1,0 +1,901 @@
+[
+	{
+		"name": "Synius",
+		"time": "19 @ 14:16:27"
+	},
+	{
+		"type": 0,
+		"usedSets": [
+			{
+				"name": "most popular tracks (11)",
+				"numOfIntersections": 0
+			},
+			{
+				"name": "lovedTrack-based agent (67)",
+				"numOfIntersections": 0
+			},
+			{
+				"name": "yourArtists-based agent (95)",
+				"numOfIntersections": 0
+			},
+			{
+				"name": "Synius (31/31)",
+				"numOfIntersections": 1
+			}
+		],
+		"time": "19 @ 14:16:36"
+	},
+	{
+		"type": 1,
+		"set": [
+			{
+				"name": "drone (43)",
+				"type": 2
+			}
+		],
+		"check": true,
+		"usedSets": [
+			{
+				"name": "most popular tracks (11)",
+				"numOfIntersections": 0
+			},
+			{
+				"name": "lovedTrack-based agent (67)",
+				"numOfIntersections": 0
+			},
+			{
+				"name": "yourArtists-based agent (95)",
+				"numOfIntersections": 0
+			},
+			{
+				"name": "Synius (31/31)",
+				"numOfIntersections": 1
+			},
+			{
+				"name": "drone (43)",
+				"numOfIntersections": 2
+			}
+		],
+		"time": "19 @ 14:17:09"
+	},
+	{
+		"type": 1,
+		"set": [
+			{
+				"name": "minimal (47)",
+				"type": 2
+			}
+		],
+		"check": true,
+		"usedSets": [
+			{
+				"name": "most popular tracks (11)",
+				"numOfIntersections": 0
+			},
+			{
+				"name": "lovedTrack-based agent (67)",
+				"numOfIntersections": 0
+			},
+			{
+				"name": "yourArtists-based agent (95)",
+				"numOfIntersections": 0
+			},
+			{
+				"name": "Synius (31/31)",
+				"numOfIntersections": 1
+			},
+			{
+				"name": "drone (43)",
+				"numOfIntersections": 2
+			},
+			{
+				"name": "minimal (47)",
+				"numOfIntersections": 2
+			}
+		],
+		"time": "19 @ 14:17:14"
+	},
+	{
+		"type": 1,
+		"set": [
+			{
+				"name": "psychedelic (50)",
+				"type": 2
+			}
+		],
+		"check": true,
+		"usedSets": [
+			{
+				"name": "most popular tracks (11)",
+				"numOfIntersections": 0
+			},
+			{
+				"name": "lovedTrack-based agent (67)",
+				"numOfIntersections": 0
+			},
+			{
+				"name": "yourArtists-based agent (95)",
+				"numOfIntersections": 0
+			},
+			{
+				"name": "Synius (31/31)",
+				"numOfIntersections": 1
+			},
+			{
+				"name": "drone (43)",
+				"numOfIntersections": 2
+			},
+			{
+				"name": "minimal (47)",
+				"numOfIntersections": 2
+			},
+			{
+				"name": "psychedelic (50)",
+				"numOfIntersections": 2
+			}
+		],
+		"time": "19 @ 14:17:28"
+	},
+	{
+		"type": 4,
+		"setsCombination": [
+			[
+				{
+					"name": "minimal (47)",
+					"type": 2,
+					"state": 1
+				}
+			]
+		],
+		"group_type": "NONQUERY_GROUP",
+		"query_header": "normal",
+		"Items": 47,
+		"time": "19 @ 14:18:07"
+	},
+	{
+		"type": 4,
+		"setsCombination": [
+			[
+				{
+					"name": "Synius (31/31)",
+					"type": 1,
+					"state": 1
+				}
+			]
+		],
+		"group_type": "NONQUERY_GROUP",
+		"query_header": "normal",
+		"Items": 25,
+		"time": "19 @ 14:18:13"
+	},
+	{
+		"type": 1,
+		"set": [
+			{
+				"name": "LordofSushi (0/15)",
+				"type": 1
+			}
+		],
+		"check": true,
+		"usedSets": [
+			{
+				"name": "most popular tracks (11)",
+				"numOfIntersections": 0
+			},
+			{
+				"name": "lovedTrack-based agent (67)",
+				"numOfIntersections": 0
+			},
+			{
+				"name": "yourArtists-based agent (95)",
+				"numOfIntersections": 0
+			},
+			{
+				"name": "Synius (31/31)",
+				"numOfIntersections": 1
+			},
+			{
+				"name": "drone (43)",
+				"numOfIntersections": 2
+			},
+			{
+				"name": "minimal (47)",
+				"numOfIntersections": 2
+			},
+			{
+				"name": "psychedelic (50)",
+				"numOfIntersections": 2
+			},
+			{
+				"name": "LordofSushi (0/15)",
+				"numOfIntersections": 1
+			}
+		],
+		"time": "19 @ 14:18:39"
+	},
+	{
+		"type": 1,
+		"set": [
+			{
+				"name": "zooman_ (0/7)",
+				"type": 1
+			}
+		],
+		"check": true,
+		"usedSets": [
+			{
+				"name": "most popular tracks (11)",
+				"numOfIntersections": 0
+			},
+			{
+				"name": "lovedTrack-based agent (67)",
+				"numOfIntersections": 0
+			},
+			{
+				"name": "yourArtists-based agent (95)",
+				"numOfIntersections": 0
+			},
+			{
+				"name": "Synius (31/31)",
+				"numOfIntersections": 1
+			},
+			{
+				"name": "drone (43)",
+				"numOfIntersections": 2
+			},
+			{
+				"name": "minimal (47)",
+				"numOfIntersections": 2
+			},
+			{
+				"name": "psychedelic (50)",
+				"numOfIntersections": 2
+			},
+			{
+				"name": "LordofSushi (0/15)",
+				"numOfIntersections": 1
+			},
+			{
+				"name": "zooman_ (0/7)",
+				"numOfIntersections": 1
+			}
+		],
+		"time": "19 @ 14:19:21"
+	},
+	{
+		"type": 4,
+		"setsCombination": [
+			[
+				{
+					"name": "zooman_ (0/7)",
+					"type": 1,
+					"state": 1
+				},
+				{
+					"name": "lovedTrack-based agent (67)",
+					"type": 0,
+					"state": 1
+				}
+			]
+		],
+		"group_type": "NONQUERY_GROUP",
+		"query_header": "normal",
+		"Items": 2,
+		"time": "19 @ 14:19:28"
+	},
+	{
+		"type": 7,
+		"item": "Can't Leave the Night",
+		"time": "19 @ 14:19:58"
+	},
+	{
+		"type": 1,
+		"set": [
+			{
+				"name": "experimental (49)",
+				"type": 2
+			}
+		],
+		"check": true,
+		"usedSets": [
+			{
+				"name": "most popular tracks (11)",
+				"numOfIntersections": 0
+			},
+			{
+				"name": "lovedTrack-based agent (67)",
+				"numOfIntersections": 0
+			},
+			{
+				"name": "yourArtists-based agent (95)",
+				"numOfIntersections": 0
+			},
+			{
+				"name": "  Synius (32/32)",
+				"numOfIntersections": 1
+			},
+			{
+				"name": "drone (43)",
+				"numOfIntersections": 2
+			},
+			{
+				"name": "minimal (47)",
+				"numOfIntersections": 2
+			},
+			{
+				"name": "psychedelic (50)",
+				"numOfIntersections": 2
+			},
+			{
+				"name": "LordofSushi (0/15)",
+				"numOfIntersections": 1
+			},
+			{
+				"name": " zooman_ (1/7)",
+				"numOfIntersections": 1
+			},
+			{
+				"name": "experimental (49)",
+				"numOfIntersections": 2
+			}
+		],
+		"time": "19 @ 14:20:04"
+	},
+	{
+		"type": 1,
+		"set": [
+			{
+				"name": "ambient (50)",
+				"type": 2
+			}
+		],
+		"check": true,
+		"usedSets": [
+			{
+				"name": "most popular tracks (11)",
+				"numOfIntersections": 0
+			},
+			{
+				"name": "lovedTrack-based agent (67)",
+				"numOfIntersections": 0
+			},
+			{
+				"name": "yourArtists-based agent (95)",
+				"numOfIntersections": 0
+			},
+			{
+				"name": "  Synius (32/32)",
+				"numOfIntersections": 1
+			},
+			{
+				"name": "drone (43)",
+				"numOfIntersections": 2
+			},
+			{
+				"name": "minimal (47)",
+				"numOfIntersections": 2
+			},
+			{
+				"name": "psychedelic (50)",
+				"numOfIntersections": 2
+			},
+			{
+				"name": "LordofSushi (0/15)",
+				"numOfIntersections": 1
+			},
+			{
+				"name": " zooman_ (1/7)",
+				"numOfIntersections": 1
+			},
+			{
+				"name": "experimental (49)",
+				"numOfIntersections": 2
+			},
+			{
+				"name": "ambient (50)",
+				"numOfIntersections": 2
+			}
+		],
+		"time": "19 @ 14:20:07"
+	},
+	{
+		"type": 4,
+		"setsCombination": [
+			[
+				{
+					"name": "ambient (50)",
+					"type": 2,
+					"state": 1
+				},
+				{
+					"name": "experimental (49)",
+					"type": 2,
+					"state": 1
+				}
+			]
+		],
+		"group_type": "NONQUERY_GROUP",
+		"query_header": "normal",
+		"Items": 11,
+		"time": "19 @ 14:20:15"
+	},
+	{
+		"type": 7,
+		"item": "Treefingers",
+		"time": "19 @ 14:20:25"
+	},
+	{
+		"type": 7,
+		"item": "Everything in Its Right Place",
+		"time": "19 @ 14:20:27"
+	},
+	{
+		"type": 7,
+		"item": "How to Disappear Completely",
+		"time": "19 @ 14:20:32"
+	},
+	{
+		"type": 4,
+		"setsCombination": [
+			[
+				{
+					"name": "experimental (49)",
+					"type": 2,
+					"state": 1
+				},
+				{
+					"name": "psychedelic (50)",
+					"type": 2,
+					"state": 1
+				}
+			]
+		],
+		"group_type": "NONQUERY_GROUP",
+		"query_header": "normal",
+		"Items": 4,
+		"time": "19 @ 14:20:43"
+	},
+	{
+		"type": 7,
+		"item": "On the Run",
+		"time": "19 @ 14:20:47"
+	},
+	{
+		"type": 4,
+		"setsCombination": [
+			[
+				{
+					"name": "drone (43)",
+					"type": 2,
+					"state": 1
+				},
+				{
+					"name": "yourArtists-based agent (95)",
+					"type": 0,
+					"state": 1
+				}
+			]
+		],
+		"group_type": "NONQUERY_GROUP",
+		"query_header": "normal",
+		"Items": 1,
+		"time": "19 @ 14:20:54"
+	},
+	{
+		"type": 7,
+		"item": "Chimeras",
+		"time": "19 @ 14:20:59"
+	},
+	{
+		"type": 1,
+		"set": [
+			{
+				"name": "electronic (49)",
+				"type": 2
+			}
+		],
+		"check": true,
+		"usedSets": [
+			{
+				"name": "most popular tracks (11)",
+				"numOfIntersections": 0
+			},
+			{
+				"name": "lovedTrack-based agent (67)",
+				"numOfIntersections": 0
+			},
+			{
+				"name": "yourArtists-based agent (95)",
+				"numOfIntersections": 0
+			},
+			{
+				"name": "  Synius (37/37)",
+				"numOfIntersections": 1
+			},
+			{
+				"name": "drone (43)",
+				"numOfIntersections": 2
+			},
+			{
+				"name": "minimal (47)",
+				"numOfIntersections": 2
+			},
+			{
+				"name": "psychedelic (50)",
+				"numOfIntersections": 2
+			},
+			{
+				"name": "LordofSushi (0/15)",
+				"numOfIntersections": 1
+			},
+			{
+				"name": " zooman_ (1/7)",
+				"numOfIntersections": 1
+			},
+			{
+				"name": "experimental (49)",
+				"numOfIntersections": 2
+			},
+			{
+				"name": "ambient (50)",
+				"numOfIntersections": 2
+			},
+			{
+				"name": "electronic (49)",
+				"numOfIntersections": 2
+			}
+		],
+		"time": "19 @ 14:21:07"
+	},
+	{
+		"type": 4,
+		"setsCombination": [
+			[
+				{
+					"name": "drone (43)",
+					"type": 2,
+					"state": 1
+				}
+			]
+		],
+		"group_type": "NONQUERY_GROUP",
+		"query_header": "normal",
+		"Items": 42,
+		"time": "19 @ 14:21:14"
+	},
+	{
+		"type": 7,
+		"item": "Orbit 405",
+		"time": "19 @ 14:21:26"
+	},
+	{
+		"type": 7,
+		"item": "Corsair",
+		"time": "19 @ 14:21:53"
+	},
+	{
+		"type": 7,
+		"item": "Don't Bother They're Here",
+		"time": "19 @ 14:21:57"
+	},
+	{
+		"type": 1,
+		"set": [
+			{
+				"name": "chillout (50)",
+				"type": 2
+			}
+		],
+		"check": true,
+		"usedSets": [
+			{
+				"name": "most popular tracks (11)",
+				"numOfIntersections": 0
+			},
+			{
+				"name": "lovedTrack-based agent (67)",
+				"numOfIntersections": 0
+			},
+			{
+				"name": "yourArtists-based agent (95)",
+				"numOfIntersections": 0
+			},
+			{
+				"name": "  Synius (40/40)",
+				"numOfIntersections": 1
+			},
+			{
+				"name": "drone (43)",
+				"numOfIntersections": 2
+			},
+			{
+				"name": "minimal (47)",
+				"numOfIntersections": 2
+			},
+			{
+				"name": "psychedelic (50)",
+				"numOfIntersections": 2
+			},
+			{
+				"name": "LordofSushi (0/15)",
+				"numOfIntersections": 1
+			},
+			{
+				"name": " zooman_ (1/7)",
+				"numOfIntersections": 1
+			},
+			{
+				"name": "experimental (49)",
+				"numOfIntersections": 2
+			},
+			{
+				"name": "ambient (50)",
+				"numOfIntersections": 2
+			},
+			{
+				"name": "electronic (49)",
+				"numOfIntersections": 2
+			},
+			{
+				"name": "chillout (50)",
+				"numOfIntersections": 2
+			}
+		],
+		"time": "19 @ 14:22:35"
+	},
+	{
+		"type": 1,
+		"set": [
+			{
+				"name": "breakbeat (49)",
+				"type": 2
+			}
+		],
+		"check": true,
+		"usedSets": [
+			{
+				"name": "most popular tracks (11)",
+				"numOfIntersections": 0
+			},
+			{
+				"name": "lovedTrack-based agent (67)",
+				"numOfIntersections": 0
+			},
+			{
+				"name": "yourArtists-based agent (95)",
+				"numOfIntersections": 0
+			},
+			{
+				"name": "  Synius (40/40)",
+				"numOfIntersections": 1
+			},
+			{
+				"name": "drone (43)",
+				"numOfIntersections": 2
+			},
+			{
+				"name": "minimal (47)",
+				"numOfIntersections": 2
+			},
+			{
+				"name": "psychedelic (50)",
+				"numOfIntersections": 2
+			},
+			{
+				"name": "LordofSushi (0/15)",
+				"numOfIntersections": 1
+			},
+			{
+				"name": " zooman_ (1/7)",
+				"numOfIntersections": 1
+			},
+			{
+				"name": "experimental (49)",
+				"numOfIntersections": 2
+			},
+			{
+				"name": "ambient (50)",
+				"numOfIntersections": 2
+			},
+			{
+				"name": "electronic (49)",
+				"numOfIntersections": 2
+			},
+			{
+				"name": "chillout (50)",
+				"numOfIntersections": 2
+			},
+			{
+				"name": "breakbeat (49)",
+				"numOfIntersections": 2
+			}
+		],
+		"time": "19 @ 14:22:35"
+	},
+	{
+		"type": 1,
+		"set": [
+			{
+				"name": "breakbeat (49)",
+				"type": 2
+			}
+		],
+		"check": false,
+		"usedSets": [
+			{
+				"name": "most popular tracks (11)",
+				"numOfIntersections": 0
+			},
+			{
+				"name": "lovedTrack-based agent (67)",
+				"numOfIntersections": 0
+			},
+			{
+				"name": "yourArtists-based agent (95)",
+				"numOfIntersections": 0
+			},
+			{
+				"name": "  Synius (40/40)",
+				"numOfIntersections": 1
+			},
+			{
+				"name": "drone (43)",
+				"numOfIntersections": 2
+			},
+			{
+				"name": "minimal (47)",
+				"numOfIntersections": 2
+			},
+			{
+				"name": "psychedelic (50)",
+				"numOfIntersections": 2
+			},
+			{
+				"name": "LordofSushi (0/15)",
+				"numOfIntersections": 1
+			},
+			{
+				"name": " zooman_ (1/7)",
+				"numOfIntersections": 1
+			},
+			{
+				"name": "experimental (49)",
+				"numOfIntersections": 2
+			},
+			{
+				"name": "ambient (50)",
+				"numOfIntersections": 2
+			},
+			{
+				"name": "electronic (49)",
+				"numOfIntersections": 2
+			},
+			{
+				"name": "chillout (50)",
+				"numOfIntersections": 2
+			}
+		],
+		"time": "19 @ 14:22:37"
+	},
+	{
+		"type": 1,
+		"set": [
+			{
+				"name": "breakbeat (49)",
+				"type": 2
+			}
+		],
+		"check": true,
+		"usedSets": [
+			{
+				"name": "most popular tracks (11)",
+				"numOfIntersections": 0
+			},
+			{
+				"name": "lovedTrack-based agent (67)",
+				"numOfIntersections": 0
+			},
+			{
+				"name": "yourArtists-based agent (95)",
+				"numOfIntersections": 0
+			},
+			{
+				"name": "  Synius (40/40)",
+				"numOfIntersections": 1
+			},
+			{
+				"name": "drone (43)",
+				"numOfIntersections": 2
+			},
+			{
+				"name": "minimal (47)",
+				"numOfIntersections": 2
+			},
+			{
+				"name": "psychedelic (50)",
+				"numOfIntersections": 2
+			},
+			{
+				"name": "LordofSushi (0/15)",
+				"numOfIntersections": 1
+			},
+			{
+				"name": " zooman_ (1/7)",
+				"numOfIntersections": 1
+			},
+			{
+				"name": "experimental (49)",
+				"numOfIntersections": 2
+			},
+			{
+				"name": "ambient (50)",
+				"numOfIntersections": 2
+			},
+			{
+				"name": "electronic (49)",
+				"numOfIntersections": 2
+			},
+			{
+				"name": "chillout (50)",
+				"numOfIntersections": 2
+			},
+			{
+				"name": "breakbeat (49)",
+				"numOfIntersections": 2
+			}
+		],
+		"time": "19 @ 14:22:37"
+	},
+	{
+		"type": 4,
+		"setsCombination": [
+			[
+				{
+					"name": "electronic (49)",
+					"type": 2,
+					"state": 1
+				},
+				{
+					"name": "psychedelic (50)",
+					"type": 2,
+					"state": 1
+				}
+			]
+		],
+		"group_type": "NONQUERY_GROUP",
+		"query_header": "normal",
+		"Items": 4,
+		"time": "19 @ 14:22:41"
+	},
+	{
+		"type": 4,
+		"setsCombination": [
+			[
+				{
+					"name": "chillout (50)",
+					"type": 2,
+					"state": 1
+				},
+				{
+					"name": "electronic (49)",
+					"type": 2,
+					"state": 1
+				},
+				{
+					"name": "ambient (50)",
+					"type": 2,
+					"state": 1
+				}
+			]
+		],
+		"group_type": "NONQUERY_GROUP",
+		"query_header": "normal",
+		"Items": 3,
+		"time": "19 @ 14:22:57"
+	},
+	{
+		"type": 7,
+		"item": "Angel",
+		"time": "19 @ 14:23:00"
+	}
+]

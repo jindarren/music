@@ -1,0 +1,88 @@
+[
+	{
+		"name": "fox116",
+		"time": "07 @ 13:00:18"
+	},
+	{
+		"type": 4,
+		"setsCombination": [
+			[
+				{
+					"name": null,
+					"type": null
+				}
+			]
+		],
+		"group_type": "NONQUERY_GROUP",
+		"query_header": "normal",
+		"Items": 919,
+		"time": "07 @ 13:00:19"
+	},
+	{
+		"type": 4,
+		"setsCombination": [
+			[
+				{
+					"name": "yourArtists-based agent (67)",
+					"type": 0,
+					"state": 1
+				}
+			]
+		],
+		"group_type": "NONQUERY_GROUP",
+		"query_header": "normal",
+		"Items": 66,
+		"time": "07 @ 13:00:25"
+	},
+	{
+		"type": 4,
+		"setsCombination": [
+			[
+				{
+					"name": "lovedTrack-based agent (105)",
+					"type": 0,
+					"state": 1
+				}
+			]
+		],
+		"group_type": "NONQUERY_GROUP",
+		"query_header": "normal",
+		"Items": 101,
+		"time": "07 @ 13:00:28"
+	},
+	{
+		"type": 3,
+		"setsCombination": [
+			[
+				{
+					"name": null,
+					"type": null
+				}
+			]
+		],
+		"itemNumber": 919,
+		"group_type": "NONQUERY_GROUP",
+		"time": "07 @ 13:00:29"
+	},
+	{
+		"type": 4,
+		"setsCombination": [
+			[
+				{
+					"name": "experimental (49)",
+					"type": 2,
+					"state": 1
+				},
+				{
+					"name": "alternative (50)",
+					"type": 2,
+					"state": 1
+				}
+			]
+		],
+		"group_type": "NONQUERY_GROUP",
+		"query_header": "normal",
+		"Items": 1,
+		"time": "07 @ 13:00:34"
+	}
+]

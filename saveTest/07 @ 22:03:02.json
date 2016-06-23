@@ -1,0 +1,76 @@
+[
+	{
+		"name": "fox116",
+		"time": "07 @ 13:02:53"
+	},
+	{
+		"type": 2,
+		"sort": [
+			{
+				"name": "punk (48)",
+				"type": 2
+			}
+		],
+		"time": "07 @ 13:02:55"
+	},
+	{
+		"type": 4,
+		"setsCombination": [
+			{
+				"name": "punk (48)",
+				"type": 2,
+				"state": 1
+			}
+		],
+		"group_type": "SET_TYPE",
+		"Items": 48,
+		"time": "07 @ 13:02:55"
+	},
+	{
+		"type": 4,
+		"setsCombination": [
+			[
+				{
+					"name": "classic rock (46)",
+					"type": 2,
+					"state": 1
+				}
+			]
+		],
+		"group_type": "NONQUERY_GROUP",
+		"query_header": "normal",
+		"Items": 41,
+		"time": "07 @ 13:02:58"
+	},
+	{
+		"type": 3,
+		"setsCombination": [
+			[
+				{
+					"name": "classic rock (46)",
+					"type": 2,
+					"state": 1
+				}
+			]
+		],
+		"itemNumber": 41,
+		"group_type": "NONQUERY_GROUP",
+		"time": "07 @ 13:02:57"
+	},
+	{
+		"type": 4,
+		"setsCombination": [
+			[
+				{
+					"name": "experimental (49)",
+					"type": 2,
+					"state": 1
+				}
+			]
+		],
+		"group_type": "NONQUERY_GROUP",
+		"query_header": "normal",
+		"Items": 48,
+		"time": "07 @ 13:03:02"
+	}
+]

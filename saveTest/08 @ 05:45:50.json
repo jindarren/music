@@ -1,0 +1,62 @@
+[
+	{
+		"name": "brenkelieshere",
+		"time": "07 @ 20:45:10"
+	},
+	{
+		"type": 3,
+		"setsCombination": [
+			[
+				{
+					"name": "Y2Ken (0/18)",
+					"type": 1,
+					"state": 1
+				}
+			]
+		],
+		"itemNumber": 18,
+		"group_type": "NONQUERY_GROUP",
+		"time": "07 @ 20:45:10"
+	},
+	{
+		"type": 5,
+		"item": "Four Forks Ache",
+		"time": "07 @ 20:45:18"
+	},
+	{
+		"type": 5,
+		"item": "Mandrake",
+		"time": "07 @ 20:45:37"
+	},
+	{
+		"type": 4,
+		"setsCombination": [
+			[
+				{
+					"name": "  brenkelieshere (33/33)",
+					"type": 1,
+					"state": 1
+				}
+			]
+		],
+		"group_type": "NONQUERY_GROUP",
+		"query_header": "normal",
+		"Items": 29,
+		"time": "07 @ 20:46:00"
+	},
+	{
+		"type": 3,
+		"setsCombination": [
+			[
+				{
+					"name": "  brenkelieshere (33/33)",
+					"type": 1,
+					"state": 1
+				}
+			]
+		],
+		"itemNumber": 29,
+		"group_type": "NONQUERY_GROUP",
+		"time": "07 @ 20:45:59"
+	}
+]

@@ -1,0 +1,63 @@
+[
+	{
+		"name": "brenkelieshere",
+		"time": "07 @ 20:43:12"
+	},
+	{
+		"type": 5,
+		"item": "Puss",
+		"time": "07 @ 20:43:16"
+	},
+	{
+		"type": 5,
+		"item": "Gargantuan March",
+		"time": "07 @ 20:44:35"
+	},
+	{
+		"type": 4,
+		"setsCombination": [
+			[
+				{
+					"name": "MuoriBOR (0/22)",
+					"type": 1,
+					"state": 1
+				}
+			]
+		],
+		"group_type": "NONQUERY_GROUP",
+		"query_header": "normal",
+		"Items": 22,
+		"time": "07 @ 20:45:07"
+	},
+	{
+		"type": 4,
+		"setsCombination": [
+			[
+				{
+					"name": "michaelblackson (0/10)",
+					"type": 1,
+					"state": 1
+				}
+			]
+		],
+		"group_type": "NONQUERY_GROUP",
+		"query_header": "normal",
+		"Items": 10,
+		"time": "07 @ 20:45:09"
+	},
+	{
+		"type": 3,
+		"setsCombination": [
+			[
+				{
+					"name": "michaelblackson (0/10)",
+					"type": 1,
+					"state": 1
+				}
+			]
+		],
+		"itemNumber": 10,
+		"group_type": "NONQUERY_GROUP",
+		"time": "07 @ 20:45:07"
+	}
+]

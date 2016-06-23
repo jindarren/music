@@ -1,0 +1,75 @@
+[
+	{
+		"name": "brenkelieshere",
+		"time": "07 @ 20:39:10"
+	},
+	{
+		"type": 2,
+		"sort": [
+			{
+				"name": "Brownguy (0/43)",
+				"type": 1
+			}
+		],
+		"time": "07 @ 20:39:11"
+	},
+	{
+		"type": 4,
+		"setsCombination": [
+			{
+				"name": "Brownguy (0/43)",
+				"type": 1,
+				"state": 1
+			}
+		],
+		"group_type": "SET_TYPE",
+		"Items": 43,
+		"time": "07 @ 20:39:11"
+	},
+	{
+		"type": 2,
+		"sort": [
+			{
+				"name": "brenkelieshere (31/31)",
+				"type": 1
+			}
+		],
+		"time": "07 @ 20:39:13"
+	},
+	{
+		"type": 4,
+		"setsCombination": [
+			{
+				"name": "brenkelieshere (31/31)",
+				"type": 1,
+				"state": 1
+			}
+		],
+		"group_type": "SET_TYPE",
+		"Items": 31,
+		"time": "07 @ 20:39:13"
+	},
+	{
+		"type": 2,
+		"sort": [
+			{
+				"name": "Captain_M4d (0/39)",
+				"type": 1
+			}
+		],
+		"time": "07 @ 20:39:14"
+	},
+	{
+		"type": 4,
+		"setsCombination": [
+			{
+				"name": "Captain_M4d (0/39)",
+				"type": 1,
+				"state": 1
+			}
+		],
+		"group_type": "SET_TYPE",
+		"Items": 39,
+		"time": "07 @ 20:39:14"
+	}
+]

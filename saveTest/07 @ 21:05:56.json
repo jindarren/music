@@ -1,0 +1,84 @@
+[
+	{
+		"name": "john",
+		"time": "07 @ 12:05:13"
+	},
+	{
+		"type": 4,
+		"setsCombination": [
+			[
+				{
+					"name": "lovedTrack-based agent (106)",
+					"type": 0,
+					"state": 1
+				}
+			]
+		],
+		"group_type": "NONQUERY_GROUP",
+		"query_header": "normal",
+		"Items": 106,
+		"time": "07 @ 12:05:14"
+	},
+	{
+		"type": 4,
+		"setsCombination": [
+			[
+				{
+					"name": "lovedTrack-based agent (106)",
+					"type": 0,
+					"state": 1
+				}
+			]
+		],
+		"group_type": "NONQUERY_GROUP",
+		"query_header": "normal",
+		"Items": 106,
+		"time": "07 @ 12:05:14"
+	},
+	{
+		"type": 4,
+		"setsCombination": [
+			[
+				{
+					"name": "john (31/31)",
+					"type": 1,
+					"state": 1
+				}
+			]
+		],
+		"group_type": "NONQUERY_GROUP",
+		"query_header": "normal",
+		"Items": 31,
+		"time": "07 @ 12:05:14"
+	},
+	{
+		"type": 4,
+		"setsCombination": [
+			[
+				{
+					"name": "john (31/31)",
+					"type": 1,
+					"state": 1
+				}
+			]
+		],
+		"group_type": "NONQUERY_GROUP",
+		"query_header": "normal",
+		"Items": 31,
+		"time": "07 @ 12:05:15"
+	},
+	{
+		"type": 3,
+		"setsCombination": [
+			[
+				{
+					"name": null,
+					"type": null
+				}
+			]
+		],
+		"itemNumber": 1595,
+		"group_type": "NONQUERY_GROUP",
+		"time": "07 @ 12:05:49"
+	}
+]

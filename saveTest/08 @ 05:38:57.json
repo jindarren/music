@@ -1,0 +1,111 @@
+[
+	{
+		"name": "brenkelieshere",
+		"time": "07 @ 20:39:00"
+	},
+	{
+		"type": 3,
+		"setsCombination": [
+			[
+				{
+					"name": "brenkelieshere (31/31)",
+					"type": 1,
+					"state": 1
+				},
+				{
+					"name": "lovedTrack-based agent (133)",
+					"type": 0,
+					"state": 1
+				}
+			]
+		],
+		"itemNumber": 2,
+		"group_type": "NONQUERY_GROUP",
+		"time": "07 @ 20:38:56"
+	},
+	{
+		"type": 4,
+		"setsCombination": [
+			[
+				{
+					"name": "eldorado2 (0/44)",
+					"type": 1,
+					"state": 1
+				},
+				{
+					"name": "lovedTrack-based agent (133)",
+					"type": 0,
+					"state": 1
+				}
+			]
+		],
+		"group_type": "NONQUERY_GROUP",
+		"query_header": "normal",
+		"Items": 2,
+		"time": "07 @ 20:39:01"
+	},
+	{
+		"type": 4,
+		"setsCombination": [
+			[
+				{
+					"name": "paloalto45 (0/47)",
+					"type": 1,
+					"state": 1
+				},
+				{
+					"name": "Captain_M4d (0/39)",
+					"type": 1,
+					"state": 1
+				}
+			]
+		],
+		"group_type": "NONQUERY_GROUP",
+		"query_header": "normal",
+		"Items": 1,
+		"time": "07 @ 20:39:03"
+	},
+	{
+		"type": 3,
+		"setsCombination": [
+			[
+				{
+					"name": "paloalto45 (0/47)",
+					"type": 1,
+					"state": 1
+				},
+				{
+					"name": "Captain_M4d (0/39)",
+					"type": 1,
+					"state": 1
+				}
+			]
+		],
+		"itemNumber": 1,
+		"group_type": "NONQUERY_GROUP",
+		"time": "07 @ 20:39:03"
+	},
+	{
+		"type": 2,
+		"sort": [
+			{
+				"name": "huddyhippo (0/42)",
+				"type": 1
+			}
+		],
+		"time": "07 @ 20:39:09"
+	},
+	{
+		"type": 4,
+		"setsCombination": [
+			{
+				"name": "huddyhippo (0/42)",
+				"type": 1,
+				"state": 1
+			}
+		],
+		"group_type": "SET_TYPE",
+		"Items": 42,
+		"time": "07 @ 20:39:10"
+	}
+]

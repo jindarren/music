@@ -1,0 +1,83 @@
+[
+	{
+		"name": "brenkelieshere",
+		"time": "07 @ 20:36:37"
+	},
+	{
+		"type": 3,
+		"setsCombination": [
+			[
+				{
+					"name": "yourArtists-based agent (94)",
+					"type": 0,
+					"state": 1
+				}
+			]
+		],
+		"itemNumber": 92,
+		"group_type": "NONQUERY_GROUP",
+		"time": "07 @ 20:36:43"
+	},
+	{
+		"type": 4,
+		"setsCombination": [
+			[
+				{
+					"name": "Oceakin (0/47)",
+					"type": 1,
+					"state": 1
+				}
+			]
+		],
+		"group_type": "NONQUERY_GROUP",
+		"query_header": "normal",
+		"Items": 47,
+		"time": "07 @ 20:36:46"
+	},
+	{
+		"type": 3,
+		"setsCombination": [
+			[
+				{
+					"name": "Oceakin (0/47)",
+					"type": 1,
+					"state": 1
+				}
+			]
+		],
+		"itemNumber": 47,
+		"group_type": "NONQUERY_GROUP",
+		"time": "07 @ 20:36:45"
+	},
+	{
+		"type": 4,
+		"setsCombination": [
+			[
+				{
+					"name": "paloalto45 (0/47)",
+					"type": 1,
+					"state": 1
+				}
+			]
+		],
+		"group_type": "NONQUERY_GROUP",
+		"query_header": "normal",
+		"Items": 46,
+		"time": "07 @ 20:37:00"
+	},
+	{
+		"type": 3,
+		"setsCombination": [
+			[
+				{
+					"name": "paloalto45 (0/47)",
+					"type": 1,
+					"state": 1
+				}
+			]
+		],
+		"itemNumber": 46,
+		"group_type": "NONQUERY_GROUP",
+		"time": "07 @ 20:36:59"
+	}
+]
